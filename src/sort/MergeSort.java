@@ -3,46 +3,10 @@ package sort;
 import java.util.Arrays;
 
 public class MergeSort {
-
-    public int[] merge2SortArrays(int[] array1, int[] array2) {
-        int length_arr1 = array1.length;
-        int length_arr2 = array2.length;
-
-        int[] arr_merge = new int[length_arr1 + length_arr2];
-
-        int idx1 = 0;
-        int idx2 = 0;
-        int idx3 = 0;
-        while(idx1 < length_arr1 && idx2 < length_arr2) {
-            if (array1[idx1] <= array2[idx2]) {
-                arr_merge[idx3] = array1[idx1];
-                idx1++;
-            } else {
-                arr_merge[idx3] = array2[idx2];
-                idx2++;
-            }
-            idx3++;
-        }
-
-        if(idx1<length_arr1) {
-            for(int i=idx1; i<length_arr1; i++) {
-                arr_merge[idx3] = array1[i];
-                idx3++;
-            }
-            return arr_merge;
-        }
-
-
-        if(idx2<length_arr1) {
-            for(int i=idx2; i<length_arr2; i++) {
-                arr_merge[idx3] = array2[i];
-                idx3++;
-            }
-            return arr_merge;
-        }
-
-        return arr_merge;
-    }
+    /*
+    * Merge Sort Best & Worse Time Complexity: O(nlogn) - Space Complexity: O(n)
+    * 稳定排序 - 先局部有序然后整体有序 - 把局部序列排序最后是全局有序
+    * */
 
 
     public int[] mergeSort(int[] target) {

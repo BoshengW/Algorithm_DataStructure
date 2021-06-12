@@ -7,9 +7,9 @@ import java.util.Random;
 public class QuickSort {
 
     /*
-    * Time Complexity: O(nlogn), Worst Complexity: O(n^2) (each partition only split 1 element in one side)
+    * Time Complexity: 平均时间复杂度O(nlogn), Worst Complexity: O(n^2) (each partition only split 1 element in one side)
     * Space Complexity: O(logn), if using recursion for stack, but logn space is very small.
-    *
+    * 不稳定排序，无法保证原先顺序 1，1，2，2*， 先整体有序再局部有序，通过pivot将整体分成相对有序的两部分再分治来是两边有序
     * How to get a pivot from array
     * 1. always use the first element
     * 2. always use the last element
@@ -17,7 +17,6 @@ public class QuickSort {
     * 4. use median index
     * */
     private Random rand = new Random();
-
 
     public int[] getPartitionIndex(int[] temp, int start, int end, int pivot) {
 
