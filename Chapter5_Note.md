@@ -1,6 +1,6 @@
-#### Chapter 5
+## Chapter 5
 
-#### Content Overview
+### Content Overview
 - T function - Calculate time complexity
     - Example: Calculate Binary Search Time Complex
 ```
@@ -19,12 +19,11 @@ T(n) = T(n/2) + T(n/4) + ... + T(1) + logn * O(1) = O(logn)
     - if Recursion Depth too deep will cause StackOverflow
     - Stack Space + Heap Space
 - To avoid StackOverflow -> optimize by Tail Call Recursion
-    - 
+    - Java, Python cannot use but C++ can do it.
     
     
 
-
-##### Recursion 
+### Recursion 
 - Three Steps to build a recursion
     - Entry: what input param need to feed
     - Exit: which condition will end the recursion
@@ -83,8 +82,11 @@ public class Solution {
 
         int start = 0, end = nums.length - 1;
         // 要点1: start + 1 < end
+        // 这样避免死循环 -> 对于有重复元素的数组二分时 如果使用 start<end
+        // find first position -> 不会出现死循环
+        // find last position -> 会出现死循环 -> 例子nums=[1,1] target=1 
         while (start + 1 < end) {
-     // 要点2：start + (end - start) / 2
+            // 要点2：start + (end - start) / 2
             int mid = start + (end - start) / 2;
             // 要点3：=, <, > 分开讨论，mid 不+1也不-1
             if (nums[mid] == target) {

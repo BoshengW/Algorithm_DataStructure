@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a91aefba-d5bb-4d1b-bcb9-37f2723ccbe9" name="Default Changelist" comment="Add Longest Palindronmic Substring Enumeration solution">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter4_Note.md" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter4_Note.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter5_Note.md" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter5_Note.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/twopointer/twoSum5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/twopointer/TwoSum5.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,9 +36,9 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/palindronmic_substring/LongestPalindronmicSubstring.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/kmp/ImplementStrstr.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/palindronmic_substring/Longest_Palindronmic_subsequence.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/palindronmic_substring/LongestPalindronmicSubstring.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
@@ -60,7 +63,7 @@
       <recent name="$PROJECT_DIR$/src/palindronmic_substring" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ValidPalindrome">
+  <component name="RunManager" selected="Application.ThreeSum">
     <configuration name="LongestPalindronmicSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="palindronmic_substring.LongestPalindronmicSubstring" />
       <module name="DataStructure" />
@@ -74,8 +77,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sort.MergeSort" />
+    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sort.QuickSort" />
       <module name="DataStructure" />
       <extension name="coverage">
         <pattern>
@@ -87,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sort.QuickSort" />
+    <configuration name="ThreeSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="twopointer.ThreeSum" />
       <module name="DataStructure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sort.*" />
+          <option name="PATTERN" value="twopointer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreeSum" />
         <item itemvalue="Application.ValidPalindrome" />
         <item itemvalue="Application.ValidPalindrome_II" />
         <item itemvalue="Application.LongestPalindronmicSubstring" />
         <item itemvalue="Application.QuickSort" />
-        <item itemvalue="Application.MergeSort" />
       </list>
     </recent_temporary>
   </component>
@@ -180,12 +183,6 @@
     <MESSAGE value="Add Longest Palindronmic Substring Enumeration solution" />
     <option name="LAST_COMMIT_MESSAGE" value="Add Longest Palindronmic Substring Enumeration solution" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="3209" y="668" key="SettingsEditor" timestamp="1623513051634">
-      <screen x="1920" y="0" width="2560" height="1400" />
-    </state>
-    <state x="3209" y="668" key="SettingsEditor/0.0.1280.680/1920.0.2560.1400@1920.0.2560.1400" timestamp="1623513051634" />
-  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -203,6 +200,11 @@
           <url>file://$PROJECT_DIR$/src/twopointer/ValidPalindrome.java</url>
           <line>47</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/twopointer/ThreeSum.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -2,7 +2,7 @@ package twopointer;
 
 import java.util.Arrays;
 
-public class twoSum5 {
+public class TwoSum5 {
     /*
     * Given an integer array, find pairs # whose sum <= target
     * 两数和-小于或等于目标值
