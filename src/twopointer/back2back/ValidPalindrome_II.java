@@ -1,4 +1,4 @@
-package twopointer;
+package twopointer.back2back;
 
 public class ValidPalindrome_II {
     /*

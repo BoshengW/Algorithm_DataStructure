@@ -1,4 +1,4 @@
-package twopointer;
+package twopointer.opposite;
 
 import java.util.Arrays;
 

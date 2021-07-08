@@ -1,4 +1,4 @@
-package twopointer;
+package twopointer.opposite;
 
 public class TriangleCount {
 
