@@ -36,3 +36,7 @@ while (iter.hasNext()) {
 system.out.print(iter.next() + " ");//数据有序
 }// 输出(有序)为 1 2 3 4 5
 ```
+
+
+
+
