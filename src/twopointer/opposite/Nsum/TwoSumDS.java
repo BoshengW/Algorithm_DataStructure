@@ -1,4 +1,4 @@
-package twopointer.opposite;
+package twopointer.opposite.Nsum;
 
 import java.util.ArrayList;
 import java.util.HashMap;

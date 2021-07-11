@@ -3,13 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="a91aefba-d5bb-4d1b-bcb9-37f2723ccbe9" name="Default Changelist" comment="Add Longest Palindronmic Substring Enumeration solution">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/twopointer/ThreeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/twopointer/opposite/ThreeSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/twopointer/TriangleCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/twopointer/opposite/TriangleCount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/twopointer/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/twopointer/opposite/TwoSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/twopointer/TwoSum5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/twopointer/opposite/TwoSum5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/twopointer/TwoSumDS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/twopointer/opposite/TwoSumDS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/twopointer/ValidPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/twopointer/back2back/ValidPalindrome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/twopointer/ValidPalindrome_II.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/twopointer/back2back/ValidPalindrome_II.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TwoPointer_Note.md" beforeDir="false" afterPath="$PROJECT_DIR$/TwoPointer_Note.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/set/Set.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/set/Set.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/twopointer/opposite/ThreeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/twopointer/opposite/Nsum/ThreeSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/twopointer/opposite/TriangleCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/twopointer/opposite/Nsum/TriangleCount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/twopointer/opposite/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/twopointer/opposite/Nsum/TwoSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/twopointer/opposite/TwoSum5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/twopointer/opposite/Nsum/TwoSum5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/twopointer/opposite/TwoSumDS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/twopointer/opposite/Nsum/TwoSumDS.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,9 +39,9 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/palindronmic_substring/Longest_Palindronmic_subsequence.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/palindronmic_substring/LongestPalindronmicSubstring.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/kmp/ImplementStrstr.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/palindronmic_substring/Longest_Palindronmic_subsequence.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
@@ -81,11 +81,11 @@
       </method>
     </configuration>
     <configuration name="ThreeSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="twopointer.opposite.ThreeSum" />
+      <option name="MAIN_CLASS_NAME" value="twopointer.opposite.Nsum.ThreeSum" />
       <module name="DataStructure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="twopointer.opposite.*" />
+          <option name="PATTERN" value="twopointer.opposite.Nsum.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,7 +98,7 @@
       <module name="DataStructure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="twopointer.opposite.*" />
+          <option name="PATTERN" value="twopointer.opposite.Nsum.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,7 +111,7 @@
       <module name="DataStructure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="twopointer.opposite.*" />
+          <option name="PATTERN" value="twopointer.opposite.Nsum.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,7 +154,7 @@
       </list>
     </option>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -189,60 +189,16 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add Longest Palindronmic Substring Enumeration solution" />
     <option name="LAST_COMMIT_MESSAGE" value="Add Longest Palindronmic Substring Enumeration solution" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state width="1237" height="204" key="GridCell.Tab.0.bottom" timestamp="1624941412514">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1237" height="204" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1624941412514" />
-    <state width="1237" height="204" key="GridCell.Tab.0.center" timestamp="1624941412514">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1237" height="204" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1624941412514" />
-    <state width="1237" height="204" key="GridCell.Tab.0.left" timestamp="1624941412513">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1237" height="204" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1624941412513" />
-    <state width="1237" height="204" key="GridCell.Tab.0.right" timestamp="1624941412514">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1237" height="204" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1624941412514" />
-    <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1624941412514">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1624941412514" />
-    <state width="1237" height="204" key="GridCell.Tab.1.center" timestamp="1624941412514">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1624941412514" />
-    <state width="1237" height="204" key="GridCell.Tab.1.left" timestamp="1624941412514">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1624941412514" />
-    <state width="1237" height="204" key="GridCell.Tab.1.right" timestamp="1624941412514">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1624941412514" />
-    <state x="489" y="255" key="com.intellij.ide.util.TipDialog" timestamp="1625715699091">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="4817" y="524" key="com.intellij.ide.util.TipDialog/0.0.1280.680/3840.0.2560.1400@3840.0.2560.1400" timestamp="1623708422394" />
-    <state x="489" y="255" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1625715699091" />
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1624932614151">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1624932614151" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -253,7 +209,7 @@
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/twopointer/opposite/ThreeSum.java</url>
+          <url>file://$PROJECT_DIR$/src/twopointer/opposite/Nsum/ThreeSum.java</url>
           <line>36</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
