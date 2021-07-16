@@ -201,6 +201,12 @@
     <MESSAGE value="Add Longest Palindronmic Substring Enumeration solution" />
     <option name="LAST_COMMIT_MESSAGE" value="Add Longest Palindronmic Substring Enumeration solution" />
   </component>
+  <component name="WindowStateProjectService">
+    <state x="655" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1626405667756">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="655" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1626405667756" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
