@@ -3,13 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="a91aefba-d5bb-4d1b-bcb9-37f2723ccbe9" name="Default Changelist" comment="Add Longest Palindronmic Substring Enumeration solution">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TwoPointer_Note.md" beforeDir="false" afterPath="$PROJECT_DIR$/TwoPointer_Note.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/set/Set.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/set/Set.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/twopointer/opposite/ThreeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/twopointer/opposite/Nsum/ThreeSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/twopointer/opposite/TriangleCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/twopointer/opposite/Nsum/TriangleCount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/twopointer/opposite/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/twopointer/opposite/Nsum/TwoSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/twopointer/opposite/TwoSum5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/twopointer/opposite/Nsum/TwoSum5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/twopointer/opposite/TwoSumDS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/twopointer/opposite/Nsum/TwoSumDS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TwoPointer_Note.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/twopointer/TwoPointer_Note.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/twopointer/opposite/ThreeSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/twopointer/opposite/TriangleCount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/twopointer/opposite/TwoSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/twopointer/opposite/TwoSum5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/twopointer/opposite/TwoSumDS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/BinaryTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,17 +62,18 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/twopointer" />
       <recent name="C:\Users\wubos\Desktop\JavaAlgorithm\Algorithm_DataStructure" />
       <recent name="$PROJECT_DIR$/src/palindronmic_substring" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.palindrome_partition">
-    <configuration name="LongestPalindronmicSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="palindronmic_substring.LongestPalindronmicSubstring" />
+  <component name="RunManager" selected="Application.BST">
+    <configuration name="BST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="set.BST" />
       <module name="DataStructure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="palindronmic_substring.*" />
+          <option name="PATTERN" value="set.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BST" />
         <item itemvalue="Application.palindrome_partition" />
         <item itemvalue="Application.ThreeSum" />
         <item itemvalue="Application.ValidPalindrome" />
         <item itemvalue="Application.ValidPalindrome_II" />
-        <item itemvalue="Application.LongestPalindronmicSubstring" />
       </list>
     </recent_temporary>
   </component>

@@ -1,7 +1,6 @@
 package tree;
 
 import javax.transaction.TransactionRequiredException;
-
 class TreeNode {
     /*
     * we can consider tree structure is a linklist with multiple connected node
