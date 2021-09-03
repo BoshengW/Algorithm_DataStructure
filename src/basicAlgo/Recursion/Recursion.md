@@ -1,4 +1,8 @@
-## Chapter 5
+## 递归 recursion - 通常指递归函数
+
+- 递归函数：程序一种实现方式，即函数自己调用自己
+- 递归算法：即大问题结果依赖于小问题结果，于是先用递归函数求解小问题
+
 
 ### Content Overview
 - T function - Calculate time complexity
@@ -64,50 +68,9 @@ tailrecsum(1, 14)
 tailrecsum(0, 15)
 15
 --------------------------------------------------
-
 ```
-- Binary Search Template
-```
-## which part you should
-public class Solution {
-    /**
-     * @param A an integer array sorted in ascending order
-     * @param target an integer
-     * @return an integer
-     */
-    public int findPosition(int[] nums, int target) {
-        if (nums == null || nums.length == 0) {
-            return -1;
-        }
 
-        int start = 0, end = nums.length - 1;
-        // 要点1: start + 1 < end
-        // 这样避免死循环 -> 对于有重复元素的数组二分时 如果使用 start<end
-        // find first position -> 不会出现死循环
-        // find last position -> 会出现死循环 -> 例子nums=[1,1] target=1 
-        while (start + 1 < end) {
-            // 要点2：start + (end - start) / 2
-            int mid = start + (end - start) / 2;
-            // 要点3：=, <, > 分开讨论，mid 不+1也不-1
-            if (nums[mid] == target) {
-                return mid;
-            } else if (nums[mid] < target) {
-                start = mid;
-            } else {
-                end = mid;
-            }
-        }
+### 通过递归实现的搜索方法 - DFS深度优先搜索
+### 递归实现的另一种算法 - 回溯 back-tracking
 
-        // 要点4: 循环结束后，单独处理start和end
-        if (nums[start] == target) {
-            return start;
-        }
-        if (nums[end] == target) {
-            return end;
-        }
-        return -1;
-    }
-}
-
-```
 
