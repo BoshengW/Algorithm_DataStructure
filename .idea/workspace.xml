@@ -3,13 +3,19 @@
   <component name="ChangeListManager">
     <list default="true" id="a91aefba-d5bb-4d1b-bcb9-37f2723ccbe9" name="Default Changelist" comment="Add Longest Palindronmic Substring Enumeration solution">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TwoPointer_Note.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/twopointer/TwoPointer_Note.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/twopointer/opposite/ThreeSum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/twopointer/opposite/TriangleCount.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/twopointer/opposite/TwoSum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/twopointer/opposite/TwoSum5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/twopointer/opposite/TwoSumDS.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/BinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter4_Note.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/basicAlgo/Pointer.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter5_Note.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/basicAlgo/Recursion/Recursion.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/queue/Queue.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructure/queue/Queue.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/set/Set.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructure/set/Set.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/tree/BinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructure/tree/BinaryTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/tree/TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructure/tree/TreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/twopointer/opposite/Nsum/TriangleCount.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructure/twopointer/opposite/Nsum/TriangleCount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/binary_search/BinarySearch.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/binary_search/BinarySearch.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/binary_search/BinarySearchTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/binary_search/BinarySearchTemplate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/queue/Queue.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/queue/Queue.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/set/Set.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/set/Set.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/twopointer/TwoPointer_Note.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/twopointer/TwoPointer_Note.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/twopointer/opposite/Nsum/TriangleCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/twopointer/opposite/Nsum/TriangleCount.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +24,23 @@
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="DataStructure" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -39,9 +62,9 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/palindronmic_substring/Longest_Palindronmic_subsequence.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/palindronmic_substring/LongestPalindronmicSubstring.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/kmp/ImplementStrstr.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/palindronmic_substring/Longest_Palindronmic_subsequence.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
@@ -57,23 +80,28 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/basicAlgo/Recursion" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\13820\OneDrive\桌面\Algorithm_DataStructure\src\basicAlgo\Recursion" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\13820\OneDrive\桌面\Algorithm_DataStructure\src\basicAlgo\Recursion" />
+      <recent name="C:\Users\13820\OneDrive\桌面\Algorithm_DataStructure\src\basicAlgo" />
       <recent name="$PROJECT_DIR$/src/twopointer" />
       <recent name="C:\Users\wubos\Desktop\JavaAlgorithm\Algorithm_DataStructure" />
       <recent name="$PROJECT_DIR$/src/palindronmic_substring" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BST">
-    <configuration name="BST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="set.BST" />
+  <component name="RunManager" selected="Application.DFABasic">
+    <configuration name="DFABasic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basicAlgo.DFA.DFABasic" />
       <module name="DataStructure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="set.*" />
+          <option name="PATTERN" value="basicAlgo.DFA.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreeSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="twopointer.opposite.Nsum.ThreeSum" />
+    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sort.MergeSort" />
       <module name="DataStructure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="twopointer.opposite.Nsum.*" />
+          <option name="PATTERN" value="sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +122,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="twopointer.back2back.ValidPalindrome" />
+    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basicAlgo.StringHash.Solution" />
       <module name="DataStructure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="twopointer.opposite.Nsum.*" />
+          <option name="PATTERN" value="basicAlgo.StringHash.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +135,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidPalindrome_II" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="twopointer.back2back.ValidPalindrome_II" />
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="graph.Solution" />
       <module name="DataStructure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="twopointer.opposite.Nsum.*" />
+          <option name="PATTERN" value="graph.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,12 +148,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="palindrome_partition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="palindronmic_substring.palindrome_partition" />
+    <configuration name="StringHash" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basicAlgo.StringHash.StringHash" />
       <module name="DataStructure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="palindronmic_substring.*" />
+          <option name="PATTERN" value="basicAlgo.StringHash.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BST" />
-        <item itemvalue="Application.palindrome_partition" />
-        <item itemvalue="Application.ThreeSum" />
-        <item itemvalue="Application.ValidPalindrome" />
-        <item itemvalue="Application.ValidPalindrome_II" />
+        <item itemvalue="Application.DFABasic" />
+        <item itemvalue="Application.Solution (1)" />
+        <item itemvalue="Application.StringHash" />
+        <item itemvalue="Application.MergeSort" />
+        <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -155,7 +183,7 @@
       </list>
     </option>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -171,6 +199,14 @@
       <workItem from="1615917083696" duration="30005000" />
       <workItem from="1623708422354" duration="826000" />
       <workItem from="1624928671763" duration="8055000" />
+      <workItem from="1626405668074" duration="1699000" />
+      <workItem from="1626443927397" duration="6211000" />
+      <workItem from="1626455687759" duration="681000" />
+      <workItem from="1626572299996" duration="20332000" />
+      <workItem from="1626806062208" duration="9669000" />
+      <workItem from="1626977418916" duration="21954000" />
+      <workItem from="1628395646223" duration="6365000" />
+      <workItem from="1629162299780" duration="27228000" />
     </task>
     <task id="LOCAL-00001" summary="Add Longest Palindronmic Substring Enumeration solution">
       <created>1622781079047</created>
@@ -190,16 +226,73 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add Longest Palindronmic Substring Enumeration solution" />
     <option name="LAST_COMMIT_MESSAGE" value="Add Longest Palindronmic Substring Enumeration solution" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="158" y="48" key="#com.intellij.ide.util.MemberChooser" timestamp="1626746643495">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="158" y="48" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1626746643495" />
+    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1628916876307">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1628916876307" />
+    <state width="595" height="170" key="GridCell.Tab.0.bottom" timestamp="1629592349592">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="595" height="170" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1629592349592" />
+    <state width="595" height="170" key="GridCell.Tab.0.center" timestamp="1629592349592">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="595" height="170" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1629592349592" />
+    <state width="595" height="170" key="GridCell.Tab.0.left" timestamp="1629592349591">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="595" height="170" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1629592349591" />
+    <state width="595" height="170" key="GridCell.Tab.0.right" timestamp="1629592349592">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="595" height="170" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1629592349592" />
+    <state width="1237" height="256" key="GridCell.Tab.1.bottom" timestamp="1629319603821">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="256" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1629319603821" />
+    <state width="1237" height="256" key="GridCell.Tab.1.center" timestamp="1629319603821">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="256" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1629319603821" />
+    <state width="1237" height="256" key="GridCell.Tab.1.left" timestamp="1629319603821">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="256" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1629319603821" />
+    <state width="1237" height="256" key="GridCell.Tab.1.right" timestamp="1629319603821">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="256" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1629319603821" />
+    <state x="655" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1629162299819">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="655" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1629162299819" />
+    <state x="-23" y="154" key="run.anything.popup" timestamp="1626453771135">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="-23" y="154" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1626453771135" />
+    <state x="343" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1628890555012">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="343" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680/3840.0.2560.1400@0.0.1280.680" timestamp="1627310249188" />
+    <state x="4526" y="2" width="1344" height="1396" key="search.everywhere.popup/0.0.1280.680/3840.0.2560.1400@3840.0.2560.1400" timestamp="1627447409878" />
+    <state x="343" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1628890555012" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -213,6 +306,36 @@
           <url>file://$PROJECT_DIR$/src/twopointer/opposite/Nsum/ThreeSum.java</url>
           <line>36</line>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/graph/bfs/SingleQueueBFS.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/graph/Solution.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/graph/Solution.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/basicAlgo/DFA/DFABasic.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/basicAlgo/DFA/DFABasic.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/basicAlgo/DFA/DFABasic.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -10,7 +10,7 @@ public class BinarySearchTemplate {
         int start = 0, end = nums.length-1;
 
         while(start + 1<end) {
-            int mid = start + (end - start)/2; // avoid start + end -> exceed int bit limit
+            int mid = start + (end - start>>1); // avoid start + end -> exceed int bit limit
 
             // this part need to adjust based on different questions
             if(nums[mid]<target) {
