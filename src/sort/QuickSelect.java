@@ -19,4 +19,9 @@ public class QuickSelect {
     总结
     简单的说就是，quick select 和 quick sort 的 partition 目标不是将数组 严格的按照 nums[i] < pivot 和nums[i] >= pivot 去拆分开，而是只要能够让左半部分 <= 右半部分即可。这样子 nums[i] == pivot 放在哪儿都无所谓，两边都可以放。
     * */
+    public static void main(String[] args) {
+        double diff = Double.MAX_VALUE;
+        System.out.println(diff);
+    }
+
 }
