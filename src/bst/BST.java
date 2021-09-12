@@ -1,4 +1,4 @@
-package set;
+package bst;
 
 class TreeNode {
     int val;

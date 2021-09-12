@@ -3,19 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="a91aefba-d5bb-4d1b-bcb9-37f2723ccbe9" name="Default Changelist" comment="Add Longest Palindronmic Substring Enumeration solution">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter4_Note.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/basicAlgo/Pointer.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter5_Note.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/basicAlgo/Recursion/Recursion.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/queue/Queue.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructure/queue/Queue.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/set/Set.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructure/set/Set.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/tree/BinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructure/tree/BinaryTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/tree/TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructure/tree/TreeNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/twopointer/opposite/Nsum/TriangleCount.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructure/twopointer/opposite/Nsum/TriangleCount.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/binary_search/BinarySearch.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/binary_search/BinarySearch.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/binary_search/BinarySearchTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/binary_search/BinarySearchTemplate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/queue/Queue.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/queue/Queue.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/set/Set.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/set/Set.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/twopointer/TwoPointer_Note.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/twopointer/TwoPointer_Note.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/twopointer/opposite/Nsum/TriangleCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/twopointer/opposite/Nsum/TriangleCount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basicAlgo/Recursion/BackTracking.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/basicAlgo/Recursion/BackTracking.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basicAlgo/Recursion/DivideConquer.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/basicAlgo/Recursion/DivideConquer.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graph/dfs/DFS.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/dfs/DFS.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/set/BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bst/BST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sort/QuickSelect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort/QuickSelect.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +87,7 @@
       <recent name="$PROJECT_DIR$/src/palindronmic_substring" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DFABasic">
+  <component name="RunManager" selected="Application.QuickSelect">
     <configuration name="DFABasic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="basicAlgo.DFA.DFABasic" />
       <module name="DataStructure" />
@@ -122,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basicAlgo.StringHash.Solution" />
+    <configuration name="QuickSelect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sort.QuickSelect" />
       <module name="DataStructure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basicAlgo.StringHash.*" />
+          <option name="PATTERN" value="sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="graph.Solution" />
+    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basicAlgo.StringHash.Solution" />
       <module name="DataStructure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="graph.*" />
+          <option name="PATTERN" value="basicAlgo.StringHash.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -163,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.QuickSelect" />
         <item itemvalue="Application.DFABasic" />
         <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.StringHash" />
         <item itemvalue="Application.MergeSort" />
-        <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -206,7 +198,8 @@
       <workItem from="1626806062208" duration="9669000" />
       <workItem from="1626977418916" duration="21954000" />
       <workItem from="1628395646223" duration="6365000" />
-      <workItem from="1629162299780" duration="27228000" />
+      <workItem from="1629162299780" duration="37551000" />
+      <workItem from="1631212577743" duration="6268000" />
     </task>
     <task id="LOCAL-00001" summary="Add Longest Palindronmic Substring Enumeration solution">
       <created>1622781079047</created>
@@ -247,52 +240,53 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1628916876307" />
-    <state width="595" height="170" key="GridCell.Tab.0.bottom" timestamp="1629592349592">
+    <state width="1237" height="170" key="GridCell.Tab.0.bottom" timestamp="1631476053287">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="595" height="170" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1629592349592" />
-    <state width="595" height="170" key="GridCell.Tab.0.center" timestamp="1629592349592">
+    <state width="1237" height="170" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1631476053287" />
+    <state width="1237" height="170" key="GridCell.Tab.0.center" timestamp="1631476053287">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="595" height="170" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1629592349592" />
-    <state width="595" height="170" key="GridCell.Tab.0.left" timestamp="1629592349591">
+    <state width="1237" height="170" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1631476053287" />
+    <state width="1237" height="170" key="GridCell.Tab.0.left" timestamp="1631476053286">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="595" height="170" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1629592349591" />
-    <state width="595" height="170" key="GridCell.Tab.0.right" timestamp="1629592349592">
+    <state width="1237" height="170" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1631476053286" />
+    <state width="1237" height="170" key="GridCell.Tab.0.right" timestamp="1631476053287">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="595" height="170" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1629592349592" />
-    <state width="1237" height="256" key="GridCell.Tab.1.bottom" timestamp="1629319603821">
+    <state width="1237" height="170" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1631476053287" />
+    <state width="1237" height="256" key="GridCell.Tab.1.bottom" timestamp="1631212546872">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="256" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1629319603821" />
-    <state width="1237" height="256" key="GridCell.Tab.1.center" timestamp="1629319603821">
+    <state width="1237" height="256" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1631212546872" />
+    <state width="1237" height="256" key="GridCell.Tab.1.center" timestamp="1631212546872">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="256" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1629319603821" />
-    <state width="1237" height="256" key="GridCell.Tab.1.left" timestamp="1629319603821">
+    <state width="1237" height="256" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1631212546872" />
+    <state width="1237" height="256" key="GridCell.Tab.1.left" timestamp="1631212546872">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="256" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1629319603821" />
-    <state width="1237" height="256" key="GridCell.Tab.1.right" timestamp="1629319603821">
+    <state width="1237" height="256" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1631212546872" />
+    <state width="1237" height="256" key="GridCell.Tab.1.right" timestamp="1631212546872">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="256" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1629319603821" />
-    <state x="655" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1629162299819">
+    <state width="1237" height="256" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1631212546872" />
+    <state x="655" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1631212578186">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="655" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1629162299819" />
+    <state x="655" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1631212578186" />
     <state x="-23" y="154" key="run.anything.popup" timestamp="1626453771135">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="-23" y="154" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1626453771135" />
-    <state x="343" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1628890555012">
+    <state x="343" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1631213260390">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state x="4355" y="2" width="1008" height="1037" key="search.everywhere.popup/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1631118248775" />
     <state x="343" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680/3840.0.2560.1400@0.0.1280.680" timestamp="1627310249188" />
     <state x="4526" y="2" width="1344" height="1396" key="search.everywhere.popup/0.0.1280.680/3840.0.2560.1400@3840.0.2560.1400" timestamp="1627447409878" />
-    <state x="343" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1628890555012" />
+    <state x="343" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1631213260390" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

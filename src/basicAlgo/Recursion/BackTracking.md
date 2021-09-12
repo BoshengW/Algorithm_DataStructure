@@ -22,17 +22,12 @@ def findNodes(node, nodes):
 def findPath(node, path, paths)：
     path.append(node.val);
     findPath(node.left, path, paths);
-    path.pop() // 回溯
+    path.pop() // 回溯 ->切换成上一级状态
 
     path.append(node.right);
     findPaths(node.right, path, paths);
-    path.pop(); // 回溯
+    path.pop(); // 回溯 -> 切换成上一级状态
+
 ```
 
-
-```aidl
-path.append(node.left)
-dfs(node.left, path)
-path.pop() -> 切换回之前的一个状态 - 回溯
-```
 #### 回溯操作
