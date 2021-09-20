@@ -3,11 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="a91aefba-d5bb-4d1b-bcb9-37f2723ccbe9" name="Default Changelist" comment="Add Longest Palindronmic Substring Enumeration solution">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/basicAlgo/Recursion/BackTracking.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/basicAlgo/Recursion/BackTracking.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/basicAlgo/Recursion/DivideConquer.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/basicAlgo/Recursion/DivideConquer.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graph/bfs/BFS.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/bfs/BFS.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graph/bfs/BFSTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/bfs/BFSTemplate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/graph/dfs/DFS.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/dfs/DFS.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/set/BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bst/BST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sort/QuickSelect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort/QuickSelect.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -199,7 +197,8 @@
       <workItem from="1626977418916" duration="21954000" />
       <workItem from="1628395646223" duration="6365000" />
       <workItem from="1629162299780" duration="37551000" />
-      <workItem from="1631212577743" duration="6268000" />
+      <workItem from="1631212577743" duration="9597000" />
+      <workItem from="1631515843070" duration="8468000" />
     </task>
     <task id="LOCAL-00001" summary="Add Longest Palindronmic Substring Enumeration solution">
       <created>1622781079047</created>
@@ -240,22 +239,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1628916876307" />
-    <state width="1237" height="170" key="GridCell.Tab.0.bottom" timestamp="1631476053287">
+    <state width="1237" height="170" key="GridCell.Tab.0.bottom" timestamp="1631488686963">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="170" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1631476053287" />
-    <state width="1237" height="170" key="GridCell.Tab.0.center" timestamp="1631476053287">
+    <state width="1237" height="170" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1631488686963" />
+    <state width="1237" height="170" key="GridCell.Tab.0.center" timestamp="1631488686962">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="170" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1631476053287" />
-    <state width="1237" height="170" key="GridCell.Tab.0.left" timestamp="1631476053286">
+    <state width="1237" height="170" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1631488686962" />
+    <state width="1237" height="170" key="GridCell.Tab.0.left" timestamp="1631488686962">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="170" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1631476053286" />
-    <state width="1237" height="170" key="GridCell.Tab.0.right" timestamp="1631476053287">
+    <state width="1237" height="170" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1631488686962" />
+    <state width="1237" height="170" key="GridCell.Tab.0.right" timestamp="1631488686963">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="170" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1631476053287" />
+    <state width="1237" height="170" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1631488686963" />
     <state width="1237" height="256" key="GridCell.Tab.1.bottom" timestamp="1631212546872">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -272,10 +271,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="256" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1631212546872" />
-    <state x="655" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1631212578186">
+    <state x="655" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1631515843637">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="655" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1631212578186" />
+    <state x="655" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1631515843637" />
     <state x="-23" y="154" key="run.anything.popup" timestamp="1626453771135">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
