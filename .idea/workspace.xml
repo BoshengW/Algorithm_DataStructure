@@ -197,7 +197,7 @@
       <workItem from="1629162299780" duration="37551000" />
       <workItem from="1631212577743" duration="9597000" />
       <workItem from="1631515843070" duration="15307000" />
-      <workItem from="1632235828839" duration="26028000" />
+      <workItem from="1632235828839" duration="33979000" />
     </task>
     <task id="LOCAL-00001" summary="Add Longest Palindronmic Substring Enumeration solution">
       <created>1622781079047</created>
@@ -230,10 +230,18 @@
     <option name="LAST_COMMIT_MESSAGE" value="Add Longest Palindronmic Substring Enumeration solution" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="4545" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1634317818692">
+      <screen x="3840" y="0" width="1920" height="1040" />
+    </state>
+    <state x="4545" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1634317818692" />
     <state x="158" y="48" key="#com.intellij.ide.util.MemberChooser" timestamp="1626746643495">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="158" y="48" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1626746643495" />
+    <state x="94" y="94" width="1092" height="492" key="DiffContextDialog" timestamp="1634308708588">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="94" y="94" width="1092" height="492" key="DiffContextDialog/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1634308708588" />
     <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1628916876307">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
