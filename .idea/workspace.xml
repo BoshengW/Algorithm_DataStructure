@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a91aefba-d5bb-4d1b-bcb9-37f2723ccbe9" name="Default Changelist" comment="Add Longest Palindronmic Substring Enumeration solution">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dynamic_program/dp/dp.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/dynamic_program/dp/dp.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structures/CheatSheet.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structures/CheatSheet.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,22 +83,9 @@
       <recent name="$PROJECT_DIR$/src/palindronmic_substring" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution (2)">
-    <configuration name="DFABasic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basicAlgo.DFA.DFABasic" />
-      <module name="DataStructure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="basicAlgo.DFA.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="QuickSelect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sort.QuickSelect" />
+  <component name="RunManager" selected="Application.QuickSortTemplate">
+    <configuration name="HeapSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sort.HeapSort" />
       <module name="DataStructure" />
       <extension name="coverage">
         <pattern>
@@ -110,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basicAlgo.StringHash.Solution" />
+    <configuration name="QuickSortTemplate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sort.QuickSortTemplate" />
       <module name="DataStructure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basicAlgo.StringHash.*" />
+          <option name="PATTERN" value="sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,6 +116,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="dynamic_program.dp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="heap.Solution" />
+      <module name="DataStructure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="heap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.QuickSortTemplate" />
+        <item itemvalue="Application.HeapSort" />
+        <item itemvalue="Application.Solution (3)" />
         <item itemvalue="Application.Solution (2)" />
         <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.QuickSelect" />
-        <item itemvalue="Application.DFABasic" />
-        <item itemvalue="Application.Solution (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -198,6 +198,7 @@
       <workItem from="1631212577743" duration="9597000" />
       <workItem from="1631515843070" duration="15307000" />
       <workItem from="1632235828839" duration="33979000" />
+      <workItem from="1634524237493" duration="17362000" />
     </task>
     <task id="LOCAL-00001" summary="Add Longest Palindronmic Substring Enumeration solution">
       <created>1622781079047</created>
@@ -246,51 +247,51 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1628916876307" />
-    <state width="1237" height="266" key="GridCell.Tab.0.bottom" timestamp="1633316740637">
+    <state width="1237" height="227" key="GridCell.Tab.0.bottom" timestamp="1634657641313">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1877" height="431" key="GridCell.Tab.0.bottom/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1632238985047" />
-    <state width="1237" height="266" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1633316740637" />
-    <state width="1237" height="266" key="GridCell.Tab.0.center" timestamp="1633316740637">
+    <state width="1237" height="227" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1634657641313" />
+    <state width="1237" height="227" key="GridCell.Tab.0.center" timestamp="1634657641313">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1877" height="431" key="GridCell.Tab.0.center/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1632238985046" />
-    <state width="1237" height="266" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1633316740637" />
-    <state width="1237" height="266" key="GridCell.Tab.0.left" timestamp="1633316740637">
+    <state width="1237" height="227" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1634657641313" />
+    <state width="1237" height="227" key="GridCell.Tab.0.left" timestamp="1634657641313">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1877" height="431" key="GridCell.Tab.0.left/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1632238985046" />
-    <state width="1237" height="266" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1633316740637" />
-    <state width="1237" height="266" key="GridCell.Tab.0.right" timestamp="1633316740637">
+    <state width="1237" height="227" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1634657641313" />
+    <state width="1237" height="227" key="GridCell.Tab.0.right" timestamp="1634657641313">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1877" height="431" key="GridCell.Tab.0.right/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1632238985046" />
-    <state width="1237" height="266" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1633316740637" />
-    <state width="1237" height="266" key="GridCell.Tab.1.bottom" timestamp="1633316740637">
+    <state width="1237" height="227" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1634657641313" />
+    <state width="1237" height="227" key="GridCell.Tab.1.bottom" timestamp="1634657641314">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1877" height="431" key="GridCell.Tab.1.bottom/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1632238629721" />
-    <state width="1237" height="266" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1633316740637" />
-    <state width="1237" height="266" key="GridCell.Tab.1.center" timestamp="1633316740637">
+    <state width="1237" height="227" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1634657641314" />
+    <state width="1237" height="227" key="GridCell.Tab.1.center" timestamp="1634657641313">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1877" height="431" key="GridCell.Tab.1.center/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1632238629720" />
-    <state width="1237" height="266" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1633316740637" />
-    <state width="1237" height="266" key="GridCell.Tab.1.left" timestamp="1633316740637">
+    <state width="1237" height="227" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1634657641313" />
+    <state width="1237" height="227" key="GridCell.Tab.1.left" timestamp="1634657641313">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1877" height="431" key="GridCell.Tab.1.left/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1632238629720" />
-    <state width="1237" height="266" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1633316740637" />
-    <state width="1237" height="266" key="GridCell.Tab.1.right" timestamp="1633316740637">
+    <state width="1237" height="227" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1634657641313" />
+    <state width="1237" height="227" key="GridCell.Tab.1.right" timestamp="1634657641314">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1877" height="431" key="GridCell.Tab.1.right/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1632238629720" />
-    <state width="1237" height="266" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1633316740637" />
-    <state x="4823" y="251" key="com.intellij.ide.util.TipDialog" timestamp="1632235830264">
-      <screen x="3840" y="0" width="1920" height="1040" />
+    <state width="1237" height="227" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1634657641314" />
+    <state x="655" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1634524238839">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="4823" y="251" key="com.intellij.ide.util.TipDialog/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1632235830264" />
-    <state x="655" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1631515843637" />
+    <state x="655" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1634524238839" />
     <state x="-23" y="154" key="run.anything.popup" timestamp="1626453771135">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -366,6 +367,21 @@
           <url>file://$PROJECT_DIR$/src/dynamic_program/dp/Solution.java</url>
           <line>39</line>
           <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/heap/Solution.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/heap/Solution.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/sort/QuickSortTemplate.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="20" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
