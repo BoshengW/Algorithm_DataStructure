@@ -1,4 +1,4 @@
-package basicAlgo.StringHash;
+package prefix_sum.StringHash;
 
 public class LongestPalidrome {
 

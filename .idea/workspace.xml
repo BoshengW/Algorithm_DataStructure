@@ -3,7 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="a91aefba-d5bb-4d1b-bcb9-37f2723ccbe9" name="Default Changelist" comment="Add Longest Palindronmic Substring Enumeration solution">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data_structures/CheatSheet.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structures/CheatSheet.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/basicAlgo/StringHash/LongestPalidrome.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/basicAlgo/StringHash/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/basicAlgo/StringHash/StringHash.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/basicAlgo/StringHash/StringHash.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basicAlgo/StringHash/LongestPalidrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prefix_sum/StringHash/LongestPalidrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basicAlgo/StringHash/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prefix_sum/StringHash/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basicAlgo/StringHash/StringHash.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prefix_sum/StringHash/StringHash.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basicAlgo/StringHash/StringHash.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/prefix_sum/StringHash/StringHash.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +90,33 @@
       <recent name="$PROJECT_DIR$/src/palindronmic_substring" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.QuickSortTemplate">
+  <component name="RunManager" selected="Application.BitOperation">
+    <configuration name="BitOperation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bit_operation.BitOperation" />
+      <module name="DataStructure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bit_operation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DiffArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="difference_array.DiffArray" />
+      <module name="DataStructure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="difference_array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HeapSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sort.HeapSort" />
       <module name="DataStructure" />
@@ -110,19 +143,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dynamic_program.dp.Solution" />
-      <module name="DataStructure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dynamic_program.dp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Solution (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="heap.Solution" />
       <module name="DataStructure" />
@@ -136,26 +156,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="set.Solution" />
-      <module name="DataStructure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="set.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BitOperation" />
+        <item itemvalue="Application.DiffArray" />
         <item itemvalue="Application.QuickSortTemplate" />
         <item itemvalue="Application.HeapSort" />
         <item itemvalue="Application.Solution (3)" />
-        <item itemvalue="Application.Solution (2)" />
-        <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -198,7 +205,7 @@
       <workItem from="1631212577743" duration="9597000" />
       <workItem from="1631515843070" duration="15307000" />
       <workItem from="1632235828839" duration="33979000" />
-      <workItem from="1634524237493" duration="17362000" />
+      <workItem from="1634524237493" duration="36544000" />
     </task>
     <task id="LOCAL-00001" summary="Add Longest Palindronmic Substring Enumeration solution">
       <created>1622781079047</created>
@@ -243,67 +250,71 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="94" y="94" width="1092" height="492" key="DiffContextDialog/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1634308708588" />
-    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1628916876307">
+    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1634866059763">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1628916876307" />
-    <state width="1237" height="227" key="GridCell.Tab.0.bottom" timestamp="1634657641313">
+    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1634866059763" />
+    <state width="1237" height="171" key="GridCell.Tab.0.bottom" timestamp="1634865671727">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1877" height="431" key="GridCell.Tab.0.bottom/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1632238985047" />
-    <state width="1237" height="227" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1634657641313" />
-    <state width="1237" height="227" key="GridCell.Tab.0.center" timestamp="1634657641313">
+    <state width="1237" height="171" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1634865671727" />
+    <state width="1237" height="171" key="GridCell.Tab.0.center" timestamp="1634865671726">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1877" height="431" key="GridCell.Tab.0.center/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1632238985046" />
-    <state width="1237" height="227" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1634657641313" />
-    <state width="1237" height="227" key="GridCell.Tab.0.left" timestamp="1634657641313">
+    <state width="1237" height="171" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1634865671726" />
+    <state width="1237" height="171" key="GridCell.Tab.0.left" timestamp="1634865671726">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1877" height="431" key="GridCell.Tab.0.left/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1632238985046" />
-    <state width="1237" height="227" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1634657641313" />
-    <state width="1237" height="227" key="GridCell.Tab.0.right" timestamp="1634657641313">
+    <state width="1237" height="171" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1634865671726" />
+    <state width="1237" height="171" key="GridCell.Tab.0.right" timestamp="1634865671726">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1877" height="431" key="GridCell.Tab.0.right/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1632238985046" />
-    <state width="1237" height="227" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1634657641313" />
-    <state width="1237" height="227" key="GridCell.Tab.1.bottom" timestamp="1634657641314">
+    <state width="1237" height="171" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1634865671726" />
+    <state width="1237" height="167" key="GridCell.Tab.1.bottom" timestamp="1634785294341">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1877" height="431" key="GridCell.Tab.1.bottom/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1632238629721" />
-    <state width="1237" height="227" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1634657641314" />
-    <state width="1237" height="227" key="GridCell.Tab.1.center" timestamp="1634657641313">
+    <state width="1237" height="167" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1634785294341" />
+    <state width="1237" height="167" key="GridCell.Tab.1.center" timestamp="1634785294340">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1877" height="431" key="GridCell.Tab.1.center/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1632238629720" />
-    <state width="1237" height="227" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1634657641313" />
-    <state width="1237" height="227" key="GridCell.Tab.1.left" timestamp="1634657641313">
+    <state width="1237" height="167" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1634785294340" />
+    <state width="1237" height="167" key="GridCell.Tab.1.left" timestamp="1634785294340">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1877" height="431" key="GridCell.Tab.1.left/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1632238629720" />
-    <state width="1237" height="227" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1634657641313" />
-    <state width="1237" height="227" key="GridCell.Tab.1.right" timestamp="1634657641314">
+    <state width="1237" height="167" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1634785294340" />
+    <state width="1237" height="167" key="GridCell.Tab.1.right" timestamp="1634785294341">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1877" height="431" key="GridCell.Tab.1.right/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1632238629720" />
-    <state width="1237" height="227" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1634657641314" />
+    <state width="1237" height="167" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1634785294341" />
     <state x="655" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1634524238839">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="4823" y="251" key="com.intellij.ide.util.TipDialog/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1632235830264" />
     <state x="655" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1634524238839" />
+    <state x="91" y="0" key="new project wizard" timestamp="1634866101256">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="91" y="0" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1634866101256" />
     <state x="-23" y="154" key="run.anything.popup" timestamp="1626453771135">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="-23" y="154" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1626453771135" />
-    <state x="343" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1633103317414">
+    <state x="343" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1634783744439">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="343" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680/3840.0.1920.1040@0.0.1280.680" timestamp="1632497976232" />
     <state x="4355" y="2" width="1008" height="1037" key="search.everywhere.popup/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1631118248775" />
     <state x="343" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680/3840.0.2560.1400@0.0.1280.680" timestamp="1627310249188" />
     <state x="4526" y="2" width="1344" height="1396" key="search.everywhere.popup/0.0.1280.680/3840.0.2560.1400@3840.0.2560.1400" timestamp="1627447409878" />
-    <state x="343" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1633103317414" />
+    <state x="343" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1634783744439" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -382,6 +393,21 @@
           <url>file://$PROJECT_DIR$/src/sort/QuickSortTemplate.java</url>
           <line>12</line>
           <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/difference_array/DiffArray.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/difference_array/DiffArray.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/difference_array/DiffArray.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="24" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
