@@ -2,15 +2,49 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a91aefba-d5bb-4d1b-bcb9-37f2723ccbe9" name="Default Changelist" comment="Add Longest Palindronmic Substring Enumeration solution">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/basicAlgo/StringHash/LongestPalidrome.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/basicAlgo/StringHash/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/basicAlgo/StringHash/StringHash.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/basicAlgo/StringHash/StringHash.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/basicAlgo/StringHash/LongestPalidrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prefix_sum/StringHash/LongestPalidrome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/basicAlgo/StringHash/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prefix_sum/StringHash/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/basicAlgo/StringHash/StringHash.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prefix_sum/StringHash/StringHash.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/basicAlgo/StringHash/StringHash.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/prefix_sum/StringHash/StringHash.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blockArray/BlockArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/blockArray/BlockArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blockArray/blockArray.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/blockArray/blockArray.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bst/BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/bst/BST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bst/BST.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/bst/BST.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structures/CheatSheet.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/CheatSheet.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/difference_array/DiffArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/difference_array/DiffArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/difference_array/difference.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/difference_array/difference.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graph/Graph.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/graph/Graph.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graph/GraphTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/graph/GraphTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graph/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/graph/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graph/bfs/BFS.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/graph/bfs/BFS.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graph/bfs/BFSTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/graph/bfs/BFSTemplate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graph/bfs/DoubleQueueBFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/graph/bfs/DoubleQueueBFS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graph/bfs/DummyNodeBFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/graph/bfs/DummyNodeBFS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graph/bfs/SingleQueueBFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/graph/bfs/SingleQueueBFS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graph/dfs/DFS.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/graph/dfs/DFS.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graph/dfs/DFSTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/graph/dfs/DFSTemplate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graph/dfs/SubSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/graph/dfs/SubSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/heap/Heapify.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/heap/Heapify.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/heap/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/heap/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/heap/heap.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/heap/heap.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linkedlist/SingleLinkList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/linkedlist/SingleLinkList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linkedlist/reference.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/linkedlist/reference.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/map/Map.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/map/Map.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/queue/CircleQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/queue/CircleQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/queue/Queue.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/queue/Queue.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/queue/QueueByArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/queue/QueueByArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/queue/QueueByLinklist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/queue/QueueByLinklist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/set/MySet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/set/MySet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/set/Set.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/set/Set.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/set/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/set/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/set/TreeSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/set/TreeSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sort/HeapSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort/HeapSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sort/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stack/StackByArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/stack/StackByArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stack/StackByLinklist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/stack/StackByLinklist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/tree/BinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tree/Tree.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/tree/Tree.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tree/TreeIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/tree/TreeIterator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/trie/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/trie/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/trie/Trie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/trie/Trie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/trie/TrieSimple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/trie/TrieSimple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/trie/trie.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/trie/trie.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,11 +139,11 @@
       </method>
     </configuration>
     <configuration name="DiffArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="difference_array.DiffArray" />
+      <option name="MAIN_CLASS_NAME" value="Data_Structure.difference_array.DiffArray" />
       <module name="DataStructure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="difference_array.*" />
+          <option name="PATTERN" value="Data_Structure.difference_array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,12 +177,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="heap.Solution" />
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Data_Structure.heap.Solution" />
       <module name="DataStructure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="heap.*" />
+          <option name="PATTERN" value="Data_Structure.heap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -205,7 +239,7 @@
       <workItem from="1631212577743" duration="9597000" />
       <workItem from="1631515843070" duration="15307000" />
       <workItem from="1632235828839" duration="33979000" />
-      <workItem from="1634524237493" duration="36544000" />
+      <workItem from="1634524237493" duration="36952000" />
     </task>
     <task id="LOCAL-00001" summary="Add Longest Palindronmic Substring Enumeration solution">
       <created>1622781079047</created>
@@ -330,17 +364,17 @@
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/graph/bfs/SingleQueueBFS.java</url>
+          <url>file://$PROJECT_DIR$/src/Data_Structure/graph/bfs/SingleQueueBFS.java</url>
           <line>33</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/graph/Solution.java</url>
+          <url>file://$PROJECT_DIR$/src/Data_Structure/graph/Solution.java</url>
           <line>8</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/graph/Solution.java</url>
+          <url>file://$PROJECT_DIR$/src/Data_Structure/graph/Solution.java</url>
           <line>52</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
@@ -360,12 +394,12 @@
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/set/Solution.java</url>
+          <url>file://$PROJECT_DIR$/src/Data_Structure/set/Solution.java</url>
           <line>41</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/set/Solution.java</url>
+          <url>file://$PROJECT_DIR$/src/Data_Structure/set/Solution.java</url>
           <line>73</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
@@ -380,12 +414,12 @@
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/heap/Solution.java</url>
+          <url>file://$PROJECT_DIR$/src/Data_Structure/heap/Solution.java</url>
           <line>36</line>
           <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/heap/Solution.java</url>
+          <url>file://$PROJECT_DIR$/src/Data_Structure/heap/Solution.java</url>
           <line>23</line>
           <option name="timeStamp" value="19" />
         </line-breakpoint>
@@ -395,17 +429,17 @@
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/difference_array/DiffArray.java</url>
+          <url>file://$PROJECT_DIR$/src/Data_Structure/difference_array/DiffArray.java</url>
           <line>42</line>
           <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/difference_array/DiffArray.java</url>
+          <url>file://$PROJECT_DIR$/src/Data_Structure/difference_array/DiffArray.java</url>
           <line>36</line>
           <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/difference_array/DiffArray.java</url>
+          <url>file://$PROJECT_DIR$/src/Data_Structure/difference_array/DiffArray.java</url>
           <line>12</line>
           <option name="timeStamp" value="24" />
         </line-breakpoint>
