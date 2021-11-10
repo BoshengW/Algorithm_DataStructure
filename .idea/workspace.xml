@@ -2,49 +2,106 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a91aefba-d5bb-4d1b-bcb9-37f2723ccbe9" name="Default Changelist" comment="Add Longest Palindronmic Substring Enumeration solution">
-      <change beforePath="$PROJECT_DIR$/src/blockArray/BlockArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/blockArray/BlockArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blockArray/blockArray.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/blockArray/blockArray.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bst/BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/bst/BST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bst/BST.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/bst/BST.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data_structures/CheatSheet.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/CheatSheet.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/difference_array/DiffArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/difference_array/DiffArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/difference_array/difference.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/difference_array/difference.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graph/Graph.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/graph/Graph.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graph/GraphTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/graph/GraphTable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graph/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/graph/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graph/bfs/BFS.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/graph/bfs/BFS.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graph/bfs/BFSTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/graph/bfs/BFSTemplate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graph/bfs/DoubleQueueBFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/graph/bfs/DoubleQueueBFS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graph/bfs/DummyNodeBFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/graph/bfs/DummyNodeBFS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graph/bfs/SingleQueueBFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/graph/bfs/SingleQueueBFS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graph/dfs/DFS.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/graph/dfs/DFS.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graph/dfs/DFSTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/graph/dfs/DFSTemplate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graph/dfs/SubSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/graph/dfs/SubSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/heap/Heapify.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/heap/Heapify.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/heap/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/heap/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/heap/heap.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/heap/heap.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedlist/SingleLinkList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/linkedlist/SingleLinkList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedlist/reference.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/linkedlist/reference.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/map/Map.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/map/Map.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/queue/CircleQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/queue/CircleQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/queue/Queue.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/queue/Queue.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/queue/QueueByArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/queue/QueueByArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/queue/QueueByLinklist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/queue/QueueByLinklist.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/set/MySet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/set/MySet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/set/Set.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/set/Set.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/set/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/set/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/set/TreeSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/set/TreeSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sort/HeapSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort/HeapSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sort/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stack/StackByArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/stack/StackByArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stack/StackByLinklist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/stack/StackByLinklist.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/tree/BinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tree/Tree.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/tree/Tree.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tree/TreeIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/tree/TreeIterator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/trie/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/trie/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/trie/Trie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/trie/Trie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/trie/TrieSimple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/trie/TrieSimple.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/trie/trie.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/trie/trie.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/basicAlgo/DFA/DFA.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/basicAlgo/DFA/DFABasic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/basicAlgo/Pointer.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/basicAlgo/Recursion/BackTracking.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/basicAlgo/Recursion/DivideConquer.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/basicAlgo/Recursion/Recursion.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/basicAlgo/Search/Search.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/binary_search/BinarySearch.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/binary_search/BinarySearchTemplate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/bit_operation/Bit-Operation.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/bit_operation/BitOperation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/blockArray/BlockArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/blockArray/blockArray.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/bst/BST.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/bst/BST.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/bst/TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/data_structures/CheatSheet.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/difference_array/DiffArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/difference_array/difference.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/dynamic_program/dp/LIS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/dynamic_program/dp/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/dynamic_program/dp/dp.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/dynamic_program/memo/memo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/dynamic_program/memo/memo.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/graph/DirectedGraphNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/graph/Graph.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/graph/GraphTable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/graph/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/graph/bfs/BFS.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/graph/bfs/BFSTemplate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/graph/bfs/DoubleQueueBFS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/graph/bfs/DummyNodeBFS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/graph/bfs/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/graph/bfs/SingleQueueBFS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/graph/bfs/TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/graph/dfs/DFS.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/graph/dfs/DFSTemplate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/graph/dfs/SubSet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/hash/Hash.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/heap/Heapify.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/heap/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/heap/heap.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/kmp/ImplementStrstr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/kmp/Implement_StrbyStr.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/linkedlist/LinkNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/linkedlist/SingleLinkList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/linkedlist/reference.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/map/Map.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/palindronmic_substring/LongestPalindronmicSubstring.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/palindronmic_substring/Longest_Palindronmic_Substring.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/palindronmic_substring/Longest_Palindronmic_subsequence.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/palindronmic_substring/palindrome_partition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/prefix_sum/PrefixSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/prefix_sum/PrefixSum.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/prefix_sum/StringHash/LongestPalidrome.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/prefix_sum/StringHash/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/prefix_sum/StringHash/StringHash.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/prefix_sum/StringHash/StringHash.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/queue/CircleQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/queue/LinkNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/queue/Queue.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/queue/QueueByArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/queue/QueueByLinklist.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/set/MySet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/set/Set.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/set/Solution$WordPath.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/set/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/set/TreeSet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/sort/HeapSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/sort/MergeSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/sort/MergeSortTemplate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/sort/QuickSelect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/sort/QuickSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/sort/QuickSortTemplate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/sort/Sorting.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/stack/LinkNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/stack/StackByArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/stack/StackByLinklist.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/tree/BinaryTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/tree/Tree.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/tree/TreeIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/tree/TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/trie/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/trie/Trie.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/trie/TrieNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/trie/TrieSimple.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/trie/trie.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/twopointer/TwoPointer_Note.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/twopointer/back2back/ValidPalindrome.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/twopointer/back2back/ValidPalindrome_II.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/twopointer/opposite/Nsum/ThreeSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/twopointer/opposite/Nsum/TriangleCount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/twopointer/opposite/Nsum/TwoSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/twopointer/opposite/Nsum/TwoSum5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/twopointer/opposite/Nsum/TwoSumDS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/twopointer/opposite/partition/QuicksortPartition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/twopointer/sameDirection/MoveToZero.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Advance_Algorithm/dynamic_program/dp/dp.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Advance_Algorithm/dynamic_program/dp/dp.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Basic_Algorithm/twopointer/opposite/partition/QuicksortPartition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Basic_Algorithm/twopointer/opposite/partition/QuicksortPartition.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,9 +148,9 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/palindronmic_substring/Longest_Palindronmic_subsequence.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/palindronmic_substring/LongestPalindronmicSubstring.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/kmp/ImplementStrstr.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Code_Interview/String/palindronmic_substring/Longest_Palindronmic_subsequence.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Code_Interview/String/palindronmic_substring/LongestPalindronmicSubstring.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Data_Structure/kmp/ImplementStrstr.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
@@ -113,24 +170,24 @@
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\13820\OneDrive\桌面\Algorithm_DataStructure\src\basicAlgo\Recursion" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\13820\OneDrive\桌面\Algorithm_DataStructure\src\Data_Structure\" />
       <recent name="C:\Users\13820\OneDrive\桌面\Algorithm_DataStructure\src\basicAlgo\Recursion" />
       <recent name="C:\Users\13820\OneDrive\桌面\Algorithm_DataStructure\src\basicAlgo" />
       <recent name="$PROJECT_DIR$/src/twopointer" />
       <recent name="C:\Users\wubos\Desktop\JavaAlgorithm\Algorithm_DataStructure" />
-      <recent name="$PROJECT_DIR$/src/palindronmic_substring" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\13820\OneDrive\桌面\Algorithm_DataStructure\src\basicAlgo\Recursion" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BitOperation">
+  <component name="RunManager" selected="Application.Solution">
     <configuration name="BitOperation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bit_operation.BitOperation" />
+      <option name="MAIN_CLASS_NAME" value="Math_Basic.bit_operation.BitOperation" />
       <module name="DataStructure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bit_operation.*" />
+          <option name="PATTERN" value="Math_Basic.bit_operation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,12 +208,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HeapSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sort.HeapSort" />
+    <configuration name="SolarPanel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Advance_Algorithm.dynamic_program.dp.SolarPanel" />
       <module name="DataStructure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sort.*" />
+          <option name="PATTERN" value="Advance_Algorithm.dynamic_program.dp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,12 +221,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuickSortTemplate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sort.QuickSortTemplate" />
+    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Code_Interview.String.palindronmic_substring.Solution" />
       <module name="DataStructure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sort.*" />
+          <option name="PATTERN" value="Code_Interview.String.palindronmic_substring.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -178,11 +235,11 @@
       </method>
     </configuration>
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Data_Structure.heap.Solution" />
+      <option name="MAIN_CLASS_NAME" value="Basic_Algorithm.binary_search.Solution" />
       <module name="DataStructure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Data_Structure.heap.*" />
+          <option name="PATTERN" value="Basic_Algorithm.binary_search.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -192,11 +249,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.SolarPanel" />
+        <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.BitOperation" />
         <item itemvalue="Application.DiffArray" />
-        <item itemvalue="Application.QuickSortTemplate" />
-        <item itemvalue="Application.HeapSort" />
-        <item itemvalue="Application.Solution (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -239,7 +296,9 @@
       <workItem from="1631212577743" duration="9597000" />
       <workItem from="1631515843070" duration="15307000" />
       <workItem from="1632235828839" duration="33979000" />
-      <workItem from="1634524237493" duration="36952000" />
+      <workItem from="1634524237493" duration="46091000" />
+      <workItem from="1635478084748" duration="2936000" />
+      <workItem from="1636218031045" duration="11971000" />
     </task>
     <task id="LOCAL-00001" summary="Add Longest Palindronmic Substring Enumeration solution">
       <created>1622781079047</created>
@@ -276,10 +335,6 @@
       <screen x="3840" y="0" width="1920" height="1040" />
     </state>
     <state x="4545" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1634317818692" />
-    <state x="158" y="48" key="#com.intellij.ide.util.MemberChooser" timestamp="1626746643495">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="158" y="48" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1626746643495" />
     <state x="94" y="94" width="1092" height="492" key="DiffContextDialog" timestamp="1634308708588">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -288,78 +343,76 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1634866059763" />
-    <state width="1237" height="171" key="GridCell.Tab.0.bottom" timestamp="1634865671727">
+    <state width="1237" height="217" key="GridCell.Tab.0.bottom" timestamp="1636513814204">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1877" height="431" key="GridCell.Tab.0.bottom/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1632238985047" />
-    <state width="1237" height="171" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1634865671727" />
-    <state width="1237" height="171" key="GridCell.Tab.0.center" timestamp="1634865671726">
+    <state width="1237" height="217" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1636513814204" />
+    <state width="1237" height="217" key="GridCell.Tab.0.center" timestamp="1636513814204">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1877" height="431" key="GridCell.Tab.0.center/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1632238985046" />
-    <state width="1237" height="171" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1634865671726" />
-    <state width="1237" height="171" key="GridCell.Tab.0.left" timestamp="1634865671726">
+    <state width="1237" height="217" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1636513814204" />
+    <state width="1237" height="217" key="GridCell.Tab.0.left" timestamp="1636513814204">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1877" height="431" key="GridCell.Tab.0.left/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1632238985046" />
-    <state width="1237" height="171" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1634865671726" />
-    <state width="1237" height="171" key="GridCell.Tab.0.right" timestamp="1634865671726">
+    <state width="1237" height="217" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1636513814204" />
+    <state width="1237" height="217" key="GridCell.Tab.0.right" timestamp="1636513814204">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1877" height="431" key="GridCell.Tab.0.right/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1632238985046" />
-    <state width="1237" height="171" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1634865671726" />
-    <state width="1237" height="167" key="GridCell.Tab.1.bottom" timestamp="1634785294341">
+    <state width="1237" height="217" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1636513814204" />
+    <state width="1237" height="217" key="GridCell.Tab.1.bottom" timestamp="1636513814205">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1877" height="431" key="GridCell.Tab.1.bottom/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1632238629721" />
-    <state width="1237" height="167" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1634785294341" />
-    <state width="1237" height="167" key="GridCell.Tab.1.center" timestamp="1634785294340">
+    <state width="1237" height="217" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1636513814205" />
+    <state width="1237" height="217" key="GridCell.Tab.1.center" timestamp="1636513814205">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1877" height="431" key="GridCell.Tab.1.center/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1632238629720" />
-    <state width="1237" height="167" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1634785294340" />
-    <state width="1237" height="167" key="GridCell.Tab.1.left" timestamp="1634785294340">
+    <state width="1237" height="217" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1636513814205" />
+    <state width="1237" height="217" key="GridCell.Tab.1.left" timestamp="1636513814205">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1877" height="431" key="GridCell.Tab.1.left/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1632238629720" />
-    <state width="1237" height="167" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1634785294340" />
-    <state width="1237" height="167" key="GridCell.Tab.1.right" timestamp="1634785294341">
+    <state width="1237" height="217" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1636513814205" />
+    <state width="1237" height="217" key="GridCell.Tab.1.right" timestamp="1636513814205">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1877" height="431" key="GridCell.Tab.1.right/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1632238629720" />
-    <state width="1237" height="167" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1634785294341" />
-    <state x="655" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1634524238839">
+    <state width="1237" height="217" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1636513814205" />
+    <state x="655" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1636218030149">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="4823" y="251" key="com.intellij.ide.util.TipDialog/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1632235830264" />
-    <state x="655" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1634524238839" />
+    <state x="655" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1636218030149" />
+    <state x="431" y="8" width="757" height="668" key="dock-window-1" timestamp="1636494498902">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="431" y="8" width="757" height="668" key="dock-window-1/0.0.1280.680@0.0.1280.680" timestamp="1636494498902" />
     <state x="91" y="0" key="new project wizard" timestamp="1634866101256">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="91" y="0" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1634866101256" />
-    <state x="-23" y="154" key="run.anything.popup" timestamp="1626453771135">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="-23" y="154" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1626453771135" />
-    <state x="343" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1634783744439">
+    <state x="343" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1636477357979">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="343" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680/3840.0.1920.1040@0.0.1280.680" timestamp="1632497976232" />
     <state x="4355" y="2" width="1008" height="1037" key="search.everywhere.popup/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1631118248775" />
-    <state x="343" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680/3840.0.2560.1400@0.0.1280.680" timestamp="1627310249188" />
-    <state x="4526" y="2" width="1344" height="1396" key="search.everywhere.popup/0.0.1280.680/3840.0.2560.1400@3840.0.2560.1400" timestamp="1627447409878" />
-    <state x="343" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1634783744439" />
+    <state x="343" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1636477357979" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/palindronmic_substring/LongestPalindronmicSubstring.java</url>
+          <url>file://$PROJECT_DIR$/src/Code_Interview/String/palindronmic_substring/LongestPalindronmicSubstring.java</url>
           <line>46</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/twopointer/opposite/Nsum/ThreeSum.java</url>
+          <url>file://$PROJECT_DIR$/src/Basic_Algorithm/twopointer/opposite/Nsum/ThreeSum.java</url>
           <line>36</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
@@ -379,17 +432,17 @@
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/basicAlgo/DFA/DFABasic.java</url>
+          <url>file://$PROJECT_DIR$/src/Pending_Topic/DFA/DFABasic.java</url>
           <line>15</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/basicAlgo/DFA/DFABasic.java</url>
+          <url>file://$PROJECT_DIR$/src/Pending_Topic/DFA/DFABasic.java</url>
           <line>19</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/basicAlgo/DFA/DFABasic.java</url>
+          <url>file://$PROJECT_DIR$/src/Pending_Topic/DFA/DFABasic.java</url>
           <line>22</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
@@ -404,12 +457,12 @@
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/dynamic_program/dp/Solution.java</url>
+          <url>file://$PROJECT_DIR$/src/Advance_Algorithm/dynamic_program/dp/Solution.java</url>
           <line>12</line>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/dynamic_program/dp/Solution.java</url>
+          <url>file://$PROJECT_DIR$/src/Advance_Algorithm/dynamic_program/dp/Solution.java</url>
           <line>39</line>
           <option name="timeStamp" value="17" />
         </line-breakpoint>
@@ -424,7 +477,7 @@
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/sort/QuickSortTemplate.java</url>
+          <url>file://$PROJECT_DIR$/src/Basic_Algorithm/sort/QuickSortTemplate.java</url>
           <line>12</line>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
@@ -442,6 +495,21 @@
           <url>file://$PROJECT_DIR$/src/Data_Structure/difference_array/DiffArray.java</url>
           <line>12</line>
           <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Code_Interview/String/palindronmic_substring/Solution.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Code_Interview/String/palindronmic_substring/Solution.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Advance_Algorithm/dynamic_program/dp/SolarPanel.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="29" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
