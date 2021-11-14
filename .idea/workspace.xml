@@ -2,106 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a91aefba-d5bb-4d1b-bcb9-37f2723ccbe9" name="Default Changelist" comment="Add Longest Palindronmic Substring Enumeration solution">
+      <change afterPath="$PROJECT_DIR$/src/Data_Structure/tree/bt/Tree.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/basicAlgo/DFA/DFA.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/basicAlgo/DFA/DFABasic.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/basicAlgo/Pointer.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/basicAlgo/Recursion/BackTracking.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/basicAlgo/Recursion/DivideConquer.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/basicAlgo/Recursion/Recursion.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/basicAlgo/Search/Search.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/binary_search/BinarySearch.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/binary_search/BinarySearchTemplate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/bit_operation/Bit-Operation.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/bit_operation/BitOperation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/blockArray/BlockArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/blockArray/blockArray.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/bst/BST.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/bst/BST.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/bst/TreeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/data_structures/CheatSheet.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/difference_array/DiffArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/difference_array/difference.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/dynamic_program/dp/LIS.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/dynamic_program/dp/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/dynamic_program/dp/dp.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/dynamic_program/memo/memo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/dynamic_program/memo/memo.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/graph/DirectedGraphNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/graph/Graph.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/graph/GraphTable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/graph/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/graph/bfs/BFS.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/graph/bfs/BFSTemplate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/graph/bfs/DoubleQueueBFS.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/graph/bfs/DummyNodeBFS.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/graph/bfs/Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/graph/bfs/SingleQueueBFS.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/graph/bfs/TreeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/graph/dfs/DFS.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/graph/dfs/DFSTemplate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/graph/dfs/SubSet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/hash/Hash.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/heap/Heapify.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/heap/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/heap/heap.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/kmp/ImplementStrstr.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/kmp/Implement_StrbyStr.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/linkedlist/LinkNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/linkedlist/SingleLinkList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/linkedlist/reference.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/map/Map.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/palindronmic_substring/LongestPalindronmicSubstring.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/palindronmic_substring/Longest_Palindronmic_Substring.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/palindronmic_substring/Longest_Palindronmic_subsequence.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/palindronmic_substring/palindrome_partition.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/prefix_sum/PrefixSum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/prefix_sum/PrefixSum.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/prefix_sum/StringHash/LongestPalidrome.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/prefix_sum/StringHash/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/prefix_sum/StringHash/StringHash.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/prefix_sum/StringHash/StringHash.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/queue/CircleQueue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/queue/LinkNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/queue/Queue.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/queue/QueueByArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/queue/QueueByLinklist.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/set/MySet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/set/Set.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/set/Solution$WordPath.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/set/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/set/TreeSet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/sort/HeapSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/sort/MergeSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/sort/MergeSortTemplate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/sort/QuickSelect.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/sort/QuickSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/sort/QuickSortTemplate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/sort/Sorting.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/stack/LinkNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/stack/StackByArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/stack/StackByLinklist.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/tree/BinaryTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/tree/Tree.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/tree/TreeIterator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/tree/TreeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/trie/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/trie/Trie.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/trie/TrieNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/trie/TrieSimple.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/trie/trie.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/twopointer/TwoPointer_Note.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/twopointer/back2back/ValidPalindrome.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/twopointer/back2back/ValidPalindrome_II.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/twopointer/opposite/Nsum/ThreeSum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/twopointer/opposite/Nsum/TriangleCount.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/twopointer/opposite/Nsum/TwoSum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/twopointer/opposite/Nsum/TwoSum5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/twopointer/opposite/Nsum/TwoSumDS.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/twopointer/opposite/partition/QuicksortPartition.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/twopointer/sameDirection/MoveToZero.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Advance_Algorithm/dynamic_program/dp/dp.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Advance_Algorithm/dynamic_program/dp/dp.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Basic_Algorithm/twopointer/opposite/partition/QuicksortPartition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Basic_Algorithm/twopointer/opposite/partition/QuicksortPartition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data_Structure/bst/BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/tree/bst/BST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data_Structure/bst/BST.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/tree/bst/BST.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data_Structure/tree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/tree/bt/BinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data_Structure/tree/Tree.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data_Structure/tree/TreeIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/tree/bt/TreeIterator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,26 +88,13 @@
       <recent name="C:\Users\13820\OneDrive\桌面\Algorithm_DataStructure\src\basicAlgo\Recursion" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution">
+  <component name="RunManager" selected="Application.test">
     <configuration name="BitOperation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Math_Basic.bit_operation.BitOperation" />
       <module name="DataStructure" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Math_Basic.bit_operation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DiffArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Data_Structure.difference_array.DiffArray" />
-      <module name="DataStructure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Data_Structure.difference_array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -247,13 +141,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Basic_Algorithm.block_search.test" />
+      <module name="DataStructure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Basic_Algorithm.block_search.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.test" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.SolarPanel" />
         <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.BitOperation" />
-        <item itemvalue="Application.DiffArray" />
       </list>
     </recent_temporary>
   </component>
@@ -298,7 +205,9 @@
       <workItem from="1632235828839" duration="33979000" />
       <workItem from="1634524237493" duration="46091000" />
       <workItem from="1635478084748" duration="2936000" />
-      <workItem from="1636218031045" duration="11971000" />
+      <workItem from="1636218031045" duration="12826000" />
+      <workItem from="1636558006238" duration="1781000" />
+      <workItem from="1636735120923" duration="7316000" />
     </task>
     <task id="LOCAL-00001" summary="Add Longest Palindronmic Substring Enumeration solution">
       <created>1622781079047</created>
@@ -343,51 +252,51 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1634866059763" />
-    <state width="1237" height="217" key="GridCell.Tab.0.bottom" timestamp="1636513814204">
+    <state width="1237" height="235" key="GridCell.Tab.0.bottom" timestamp="1636752211854">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1877" height="431" key="GridCell.Tab.0.bottom/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1632238985047" />
-    <state width="1237" height="217" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1636513814204" />
-    <state width="1237" height="217" key="GridCell.Tab.0.center" timestamp="1636513814204">
+    <state width="1237" height="235" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1636752211854" />
+    <state width="1237" height="235" key="GridCell.Tab.0.center" timestamp="1636752211853">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1877" height="431" key="GridCell.Tab.0.center/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1632238985046" />
-    <state width="1237" height="217" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1636513814204" />
-    <state width="1237" height="217" key="GridCell.Tab.0.left" timestamp="1636513814204">
+    <state width="1237" height="235" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1636752211853" />
+    <state width="1237" height="235" key="GridCell.Tab.0.left" timestamp="1636752211853">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1877" height="431" key="GridCell.Tab.0.left/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1632238985046" />
-    <state width="1237" height="217" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1636513814204" />
-    <state width="1237" height="217" key="GridCell.Tab.0.right" timestamp="1636513814204">
+    <state width="1237" height="235" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1636752211853" />
+    <state width="1237" height="235" key="GridCell.Tab.0.right" timestamp="1636752211853">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1877" height="431" key="GridCell.Tab.0.right/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1632238985046" />
-    <state width="1237" height="217" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1636513814204" />
-    <state width="1237" height="217" key="GridCell.Tab.1.bottom" timestamp="1636513814205">
+    <state width="1237" height="235" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1636752211853" />
+    <state width="1237" height="217" key="GridCell.Tab.1.bottom" timestamp="1636519413156">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1877" height="431" key="GridCell.Tab.1.bottom/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1632238629721" />
-    <state width="1237" height="217" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1636513814205" />
-    <state width="1237" height="217" key="GridCell.Tab.1.center" timestamp="1636513814205">
+    <state width="1237" height="217" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1636519413156" />
+    <state width="1237" height="217" key="GridCell.Tab.1.center" timestamp="1636519413156">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1877" height="431" key="GridCell.Tab.1.center/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1632238629720" />
-    <state width="1237" height="217" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1636513814205" />
-    <state width="1237" height="217" key="GridCell.Tab.1.left" timestamp="1636513814205">
+    <state width="1237" height="217" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1636519413156" />
+    <state width="1237" height="217" key="GridCell.Tab.1.left" timestamp="1636519413156">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1877" height="431" key="GridCell.Tab.1.left/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1632238629720" />
-    <state width="1237" height="217" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1636513814205" />
-    <state width="1237" height="217" key="GridCell.Tab.1.right" timestamp="1636513814205">
+    <state width="1237" height="217" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1636519413156" />
+    <state width="1237" height="217" key="GridCell.Tab.1.right" timestamp="1636519413156">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1877" height="431" key="GridCell.Tab.1.right/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1632238629720" />
-    <state width="1237" height="217" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1636513814205" />
-    <state x="655" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1636218030149">
+    <state width="1237" height="217" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1636519413156" />
+    <state x="655" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1636735136478">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="4823" y="251" key="com.intellij.ide.util.TipDialog/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1632235830264" />
-    <state x="655" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1636218030149" />
+    <state x="655" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1636735136478" />
     <state x="431" y="8" width="757" height="668" key="dock-window-1" timestamp="1636494498902">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

@@ -1,4 +1,4 @@
-package Data_Structure.tree;
+package Data_Structure.tree.bt;
 
 import java.util.Stack;
 

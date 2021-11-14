@@ -1,4 +1,4 @@
-package Data_Structure.bst;
+package Data_Structure.tree.bst;
 
 class TreeNode {
     int val;

@@ -167,10 +167,129 @@ private int checkTotal(int[] A, int[] B, int t) {
 }
 ```
 
-### Find median in K sorted Array
+### Find median in K sorted Array - 进阶
+- 条件与上一题相同
+```
+public double findMedian(int[][] nums) {
+    // check nums length odd/even
+    // find min and max in nums[][]
+    int min = Integer.MAX_VALUE;
+    int max = Integer.MIN_VALUE;
+    int len = 0;
+    for(int[] n: nums) {
+        if(n==null || n.length==0) continue;
+        min = Math.min(min, n[0]);
+        max = Math.max(max, n[n.length-1]);
+        len += n.length;
+    }
+    if(len==0) return 0;
+    else if(len%2==0) return (Helper(nums, len/2+1, max, min) + Helper(nums, len/2, max, min))/2.0;
+    else return Helper(nums,len/2+1, max, min); 
+}
+
+private double Helper(int[][] nums, int loc, int max, int min) {
+    // binary search every time check mid 
+    // check how many element before mid in nums[][] 
+    // 条件: find the first mid -> total(nums[][]) >=loc
+    int l = min, r = max;
+    while(l<r) {
+        int mid = l + (r-l>>1);
+        if(total(nums, mid)>=loc) r=mid;
+        else l=mid+1;
+    }
+    return l;
+}
+
+// check total for in each nums before mid
+private int total(int[][] nums, int t) {
+    // find last location where nums[l]<=t 
+    // -> since if we find nums[l]>=t need to check if nums[l]>t or ==t
+    int res = 0;
+    for(int[] n: nums) {
+        if(n==null || n.length==0) continue;
+        int l=0, r=n.length-1;
+        while(l<r) {
+            int mid = l + (r-l+1>>1);
+            if(n[mid]<=t) l=mid;
+            else r=mid-1;
+        }
+        // since n might be all >t
+        // need to check if solution exist
+        if(n[l]<=t) res+=(l+1);
+    }
+    return res;
+}
+```
 
 
 ### 无序集上面二分(即没有顺序关系的问题使用二分法)
+#### Find Black Pixel Area
+- 该问题就不是一个有序集而是二值图像
+- 通过二分优化边界扫描 - 这道题能够二分的原因是因为给了一个其实黑的像素点
+    - 如果没有这个像素点那么无法二分，因为该问题无法划分为OOOOXXXXX模型而是OOOOXXXXOOO
+    - 一个问题能够二分的本质因素是能够通过条件将问题划分成两个部分，当不满足一部分时，就一定必须满足另一部分
+```
+// 暴力扫描O(N*M)
+// 二分扫描O(M*logN)
+public int minArea(char[][] image, int x, int y) {
+    // 从上下左右向里扫描找到上下左右边界点，可以遍历扫描，但是也可以二分扫描
+    // 上边界和左边界 -> 条件: find first element that pixel==1 [0,x][0,y]
+    // 下边界和有边界 -> 条件: find last element that pixel==1 [x,end][y,end]
+    if(image==null || image.length==0) return 0;
+
+    int top = find_first(image, 0, x, "r");
+    System.out.println(top);
+    int bottom = find_last(image, x, image.length-1, "r");
+    System.out.println(bottom);
+    int left = find_first(image, 0, y, "c");
+    System.out.println(left);
+    int right = find_last(image, y, image[0].length-1, "c");
+    System.out.println(right);
+
+    return (bottom-top+1)*(right-left+1);
+}
+
+private int find_first(char[][] image, int st, int ed, String dir) {
+    // find first pixel
+    int l = st, r = ed;
+    while(l<r) {
+        // find first element pixel==1
+        int mid = l + (r-l>>1);
+        if(check(image, mid, dir)) r=mid;
+        else l=mid+1;
+    }
+    // solution must exist
+    return l;
+}
+
+private int find_last(char[][] image, int st, int ed, String dir) {
+    // find last pixel
+    int l = st, r = ed;
+    while(l<r) {
+        // find last element pixel==1
+        int mid = l + (r-l+1>>1);
+        if(check(image, mid, dir)) l=mid;
+        else r=mid-1;
+    }
+    // solution exist
+    return l;
+}
+
+private boolean check(char[][] image, int idx, String dir) {
+    if(dir.equals("r")) {
+        // check by row
+        for(char i: image[idx]) {
+            if(i=='1') return true;
+        }
+    } else {
+        // check by col
+        for(char[] j: image) {
+            if(j[idx]=='1') return true;
+        }
+    }
+    return false;
+}
+```
 #### Find intersection of two array
 - 数组之间的交集并不需要连续，共同元素即为交集
 - 条件: 找到 >= target
