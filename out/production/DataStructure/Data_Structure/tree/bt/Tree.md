@@ -4,7 +4,7 @@
 - 什么是迭代器
     - next() -> return next minimum element in the Data_Structure.tree
     - hasNext() -> boolean check if still has element in the Data_Structure.tree
-- 如果不使用系统自带stack存放tree node
+- 如果不使用系统自带stack存放tree node - 难点
     - stack结构来实现回溯
 
 ##### 二叉树迭代器实现方法

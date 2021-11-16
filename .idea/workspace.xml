@@ -2,13 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a91aefba-d5bb-4d1b-bcb9-37f2723ccbe9" name="Default Changelist" comment="Add Longest Palindronmic Substring Enumeration solution">
-      <change afterPath="$PROJECT_DIR$/src/Data_Structure/tree/bt/Tree.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Data_Structure/bst/BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/tree/bst/BST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Data_Structure/bst/BST.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/tree/bst/BST.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Data_Structure/tree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/tree/bt/BinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Data_Structure/tree/Tree.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Data_Structure/tree/TreeIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/tree/bt/TreeIterator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/Data_Structure/bst/BST.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/Data_Structure/bst/BST.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/Data_Structure/bst/TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/Data_Structure/tree/BinaryTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/Data_Structure/tree/Tree.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/Data_Structure/tree/TreeIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/Data_Structure/tree/TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data_Structure/tree/bst/BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/tree/bst/BST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data_Structure/tree/bst/BST.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/tree/bst/BST.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data_Structure/tree/bt/LintCode.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/tree/bt/LintCode.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data_Structure/tree/bt/Tree.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/tree/Tree.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data_Structure/tree/bt/TreeIterator.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,27 +80,30 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/basicAlgo/Recursion" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\13820\OneDrive\桌面\Algorithm_DataStructure\src\Data_Structure\" />
-      <recent name="C:\Users\13820\OneDrive\桌面\Algorithm_DataStructure\src\basicAlgo\Recursion" />
-      <recent name="C:\Users\13820\OneDrive\桌面\Algorithm_DataStructure\src\basicAlgo" />
-      <recent name="$PROJECT_DIR$/src/twopointer" />
-      <recent name="C:\Users\wubos\Desktop\JavaAlgorithm\Algorithm_DataStructure" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\13820\OneDrive\桌面\Algorithm_DataStructure\src\basicAlgo\Recursion" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\13820\OneDrive\桌面\Algorithm_DataStructure\src\Data_Structure\tree" />
+      <recent name="C:\Users\13820\OneDrive\桌面\Algorithm_DataStructure\src\Data_Structure\tree\bt" />
+      <recent name="C:\Users\13820\OneDrive\桌面\Algorithm_DataStructure\src\Data_Structure\" />
+      <recent name="C:\Users\13820\OneDrive\桌面\Algorithm_DataStructure\src\basicAlgo\Recursion" />
+      <recent name="C:\Users\13820\OneDrive\桌面\Algorithm_DataStructure\src\basicAlgo" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.test">
-    <configuration name="BitOperation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Math_Basic.bit_operation.BitOperation" />
+  <component name="RunManager" selected="Application.MonoStack">
+    <configuration name="MonoStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Data_Structure.stack.mono_stack.MonoStack" />
       <module name="DataStructure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Math_Basic.bit_operation.*" />
+          <option name="PATTERN" value="Data_Structure.stack.mono_stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MonoStack" />
         <item itemvalue="Application.test" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.SolarPanel" />
         <item itemvalue="Application.Solution (1)" />
-        <item itemvalue="Application.BitOperation" />
       </list>
     </recent_temporary>
   </component>
@@ -207,7 +216,8 @@
       <workItem from="1635478084748" duration="2936000" />
       <workItem from="1636218031045" duration="12826000" />
       <workItem from="1636558006238" duration="1781000" />
-      <workItem from="1636735120923" duration="7316000" />
+      <workItem from="1636735120923" duration="24610000" />
+      <workItem from="1637025345561" duration="8339000" />
     </task>
     <task id="LOCAL-00001" summary="Add Longest Palindronmic Substring Enumeration solution">
       <created>1622781079047</created>
@@ -252,26 +262,26 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1634866059763" />
-    <state width="1237" height="235" key="GridCell.Tab.0.bottom" timestamp="1636752211854">
+    <state width="595" height="235" key="GridCell.Tab.0.bottom" timestamp="1636995428046">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1877" height="431" key="GridCell.Tab.0.bottom/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1632238985047" />
-    <state width="1237" height="235" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1636752211854" />
-    <state width="1237" height="235" key="GridCell.Tab.0.center" timestamp="1636752211853">
+    <state width="595" height="235" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1636995428046" />
+    <state width="595" height="235" key="GridCell.Tab.0.center" timestamp="1636995428045">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1877" height="431" key="GridCell.Tab.0.center/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1632238985046" />
-    <state width="1237" height="235" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1636752211853" />
-    <state width="1237" height="235" key="GridCell.Tab.0.left" timestamp="1636752211853">
+    <state width="595" height="235" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1636995428045" />
+    <state width="595" height="235" key="GridCell.Tab.0.left" timestamp="1636995428045">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1877" height="431" key="GridCell.Tab.0.left/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1632238985046" />
-    <state width="1237" height="235" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1636752211853" />
-    <state width="1237" height="235" key="GridCell.Tab.0.right" timestamp="1636752211853">
+    <state width="595" height="235" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1636995428045" />
+    <state width="595" height="235" key="GridCell.Tab.0.right" timestamp="1636995428045">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1877" height="431" key="GridCell.Tab.0.right/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1632238985046" />
-    <state width="1237" height="235" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1636752211853" />
+    <state width="595" height="235" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1636995428045" />
     <state width="1237" height="217" key="GridCell.Tab.1.bottom" timestamp="1636519413156">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -292,11 +302,15 @@
     </state>
     <state width="1877" height="431" key="GridCell.Tab.1.right/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1632238629720" />
     <state width="1237" height="217" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1636519413156" />
-    <state x="655" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1636735136478">
+    <state x="242" y="0" key="SettingsEditor" timestamp="1637006288323">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="242" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1637006288323" />
+    <state x="655" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1637025396338">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="4823" y="251" key="com.intellij.ide.util.TipDialog/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1632235830264" />
-    <state x="655" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1636735136478" />
+    <state x="655" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1637025396338" />
     <state x="431" y="8" width="757" height="668" key="dock-window-1" timestamp="1636494498902">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -305,12 +319,12 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="91" y="0" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1634866101256" />
-    <state x="343" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1636477357979">
+    <state x="343" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1637019534536">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="343" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680/3840.0.1920.1040@0.0.1280.680" timestamp="1632497976232" />
     <state x="4355" y="2" width="1008" height="1037" key="search.everywhere.popup/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1631118248775" />
-    <state x="343" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1636477357979" />
+    <state x="343" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1637019534536" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
