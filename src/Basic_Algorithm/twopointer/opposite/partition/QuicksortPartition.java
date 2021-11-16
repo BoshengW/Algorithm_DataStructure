@@ -12,6 +12,12 @@ public class QuicksortPartition {
          * since if you break when left == right, you need to check nums[left]>=pivot or <pivot to make sure start index for next partition
          * if not to do this, will cause stackoverflow, so left<=right will be more safe
          * */
+        /**
+         * when left>right 有两种情况
+         * 1.  i j  -> j i => j = i-1
+         *     | |
+         * 2.  i * j ->  j+1 = i-1 => j = i-2
+         * */
         while(left<=right) {
             while(left<=right && unsortArray[left]<pivot) {
                 left++;
