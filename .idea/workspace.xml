@@ -3,18 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a91aefba-d5bb-4d1b-bcb9-37f2723ccbe9" name="Default Changelist" comment="Add Longest Palindronmic Substring Enumeration solution">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/Data_Structure/bst/BST.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/Data_Structure/bst/BST.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/Data_Structure/bst/TreeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/Data_Structure/tree/BinaryTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/Data_Structure/tree/Tree.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/Data_Structure/tree/TreeIterator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/Data_Structure/tree/TreeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Data_Structure/tree/bst/BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/tree/bst/BST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Data_Structure/tree/bst/BST.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/tree/bst/BST.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Data_Structure/tree/bt/LintCode.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/tree/bt/LintCode.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Data_Structure/tree/bt/Tree.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/tree/Tree.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Data_Structure/tree/bt/TreeIterator.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,9 +49,9 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/Code_Interview/String/palindronmic_substring/Longest_Palindronmic_subsequence.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/Code_Interview/String/palindronmic_substring/LongestPalindronmicSubstring.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/Data_Structure/kmp/ImplementStrstr.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Code_Interview/String/palindronmic_substring/Longest_Palindronmic_subsequence.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
@@ -77,9 +65,10 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="TODO_SCOPE" value="All Places" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/basicAlgo/Recursion" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Algorithm_DS/Algorithm_DataStructure" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -218,6 +207,8 @@
       <workItem from="1636558006238" duration="1781000" />
       <workItem from="1636735120923" duration="24610000" />
       <workItem from="1637025345561" duration="8339000" />
+      <workItem from="1637084074236" duration="406000" />
+      <workItem from="1637084543029" duration="16000" />
     </task>
     <task id="LOCAL-00001" summary="Add Longest Palindronmic Substring Enumeration solution">
       <created>1622781079047</created>
@@ -254,14 +245,16 @@
       <screen x="3840" y="0" width="1920" height="1040" />
     </state>
     <state x="4545" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1634317818692" />
-    <state x="94" y="94" width="1092" height="492" key="DiffContextDialog" timestamp="1634308708588">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="188" y="194" width="2184" height="1013" key="DiffContextDialog" timestamp="1637084444944">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="94" y="94" width="1092" height="492" key="DiffContextDialog/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1634308708588" />
-    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1634866059763">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="188" y="194" width="2184" height="1013" key="DiffContextDialog/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1637084444944" />
+    <state x="842" y="196" key="FileChooserDialogImpl" timestamp="1637084557407">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1634866059763" />
+    <state x="842" y="196" key="FileChooserDialogImpl/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1637084557407" />
     <state width="595" height="235" key="GridCell.Tab.0.bottom" timestamp="1636995428046">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -306,11 +299,12 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="242" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1637006288323" />
-    <state x="655" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1637025396338">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="1310" y="338" key="com.intellij.ide.util.TipDialog" timestamp="1637084543466">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="4823" y="251" key="com.intellij.ide.util.TipDialog/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1632235830264" />
     <state x="655" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1637025396338" />
+    <state x="1310" y="338" key="com.intellij.ide.util.TipDialog/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1637084543466" />
     <state x="431" y="8" width="757" height="668" key="dock-window-1" timestamp="1636494498902">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
