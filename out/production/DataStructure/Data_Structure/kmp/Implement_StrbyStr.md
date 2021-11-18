@@ -13,13 +13,32 @@ for(int i in [0, len(string) - len(target)]) {
     - encoding hashcode for all possible substring candidate 
         - if hashcode equal: check substring with target
     
-```aidl
-
-
-```
 
 - Best Solution -> KMP
     - O(n)
+    
+```
+暴力解法
+S[N] 长串
+P[M] 短串
+
+for(int i=1; i<n; i++) {
+    
+    bool flag
+    for(int j=1; j<=m; j++) {
+    }
+}
+```
+
+```
+KMP解法
+String P;
+String S;
+int[] next = new int[P.length()+1];
+for(int i=1, j=0; i<=m; i++) {
+    
+}
+```
 
 
 
