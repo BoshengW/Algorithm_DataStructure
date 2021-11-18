@@ -1,7 +1,6 @@
 ### 二叉树题目
 #### 寻找前驱节点
 - inorder
-
 - iterator
     - with stack
         - Time: O(N), Space: O(N)
@@ -31,14 +30,8 @@ public TreeNode inorderPredecessor(TreeNode root, TreeNode p) {
 ```
 - recursion
 
-```
-
-```
-
 #### 寻找后继节点
-```
 
-```
 
 #### 前序遍历
 - 递归
@@ -122,3 +115,282 @@ public List<List<Integer>> levelOrder(TreeNode root) {
 
 }
 ```
+
+#### 寻找所有路径
+- Divide & Conquer
+    - 从后往前添加节点
+- Time: O(N + N/2 + N/4 + ...) = O(N)
+- Space: O(N^2) + O(N)栈空间
+```
+public List<String> binaryTreePaths(TreeNode root) {
+    // write your code here
+    List<String> res = new ArrayList<>();
+    res = dq(root);
+    return res;
+
+}
+
+private List<String> dq(TreeNode root) {
+    List<String> res = new ArrayList<>();
+    if(root==null) {
+        return res;
+    }
+    if(root.left==null && root.right==null) {
+        res.add(root.val+"");
+        return res;
+    }
+
+    List<String> leftPaths = dq(root.left);
+    List<String> rightPaths = dq(root.right);
+    
+    for(String path: leftPaths) {
+        res.add(root.val + "->" + path);
+    }
+
+    for(String path: rightPaths) {
+        res.add(root.val + "->" + path);
+    }
+
+    return res;
+}
+```
+
+- DFS
+    - 从前往后添加节点
+- Time: O(N) 每一个节点遍历了一次
+- Space: O(N) 最坏情况 如果平衡二叉树 O(logN)
+```
+public List<String> binaryTreePaths(TreeNode root) {
+    // write your code here
+    List<String> paths = new ArrayList<>();
+    dfs(root, "", paths);
+    return paths;
+}
+
+private void dfs(TreeNode root, String path, List<String> paths) {
+    if(root==null) return;
+    if(root.left==null && root.right==null) {
+        path = path + root.val + "->";
+        // System.out.println(path);
+        paths.add(path.substring(0,path.length()-2));
+        return;
+    }
+
+    path = path + root.val + "->";
+    if(root.left!=null) dfs(root.left, path, paths);
+    if(root.right!=null) dfs(root.right, path, paths);
+}
+```
+
+#### 判断平衡二叉树
+- 分治思想，从下到上检测左右子树是否平衡 & diff(左,右)<=1
+    - 建立Object记录max heigt & isBalanced
+    - Note: 为什么不用存储 min height? 有没有可能 max height - min height > 1 但是 max height - max height <=1 
+        - 如果左右子树都是平衡的话，那么不可能存在这种情况
+        推导: 如果一个树平衡 max - min <=1, max = min or max = min+1
+            -  如果 max1 - min2 > 1 => max1 - (max2) > 1 或者 max1 - max2 + 1 > 1 
+            -  max1 - max2<=1 
+            
+#### 判断BST
+- 分治
+            
+
+
+#### 检测二叉树最大深度
+- 分治思想，从下往上找最大深度
+- Time: O(N) 每一个节点遍历一遍, Space: O(N)
+```
+private int dq(TreeNode root) {
+    if(root==null) return 0;
+
+    int lh = dq(root.left);
+    int rh = dq(root.right);
+
+    return Math.max(lh, rh) + 1;
+}
+```
+####二叉树中最接近target的节点
+
+- 分治法
+    - Time: O(N), Space: O(N)
+
+```
+private int dq(TreeNode root, double target) {
+    if(root==null) return Integer.MIN_VALUE;
+
+    int l = dq(root.left, target);
+    int r = dq(root.right, target);
+
+    int res = root.val;
+    
+    if(l!=Integer.MIN_VALUE && Math.abs(res-target)>Math.abs(l-target)) res = l;
+    if(r!=Integer.MIN_VALUE && Math.abs(res-target)>Math.abs(r-target)) res = r;
+
+    return res;
+}
+```
+- DFS 遍历所有节点找最接近的
+- 最优解 BST二分寻找上下边界
+    - Time: 普通BST O(h) 树高, 平衡二叉树 O(logN)
+    
+#### Flatten Binary Tree to Linked List
+- 分治思想: 从叶子节点先flatten 左右叶子,将生成的局部链表的最后一个节点返回给上面(最后一个节点用来拼接左右分支)
+    - Time: O(N), Space: O(N)
+```
+private TreeNode dq(TreeNode root) {
+    if(root==null) return null;
+
+    TreeNode l = dq(root.left);
+    TreeNode r = dq(root.right);
+
+    // root
+    if(root.left==null) {
+        // 没有左节点，直接将右节点末尾返回
+        return r==null? root.right: r;
+    } else {
+        // 有左节点
+        TreeNode node = root.left;
+        if(l==null) {
+            // node是左边唯一一个节点
+            TreeNode last = r==null? (root.right==null? node: root.right): r;
+            node.right = root.right;
+            root.right = node;
+            root.left=null;
+            return last;
+        } else {
+            // node不是左边唯一一个点
+            TreeNode last = r==null? (root.right==null? l: root.right): r;
+            l.right = root.right;
+            root.right = node;
+            root.left = null;
+            return last;
+        }
+    }
+}
+```
+#### Find Kth smallest in BST (在BST高频变化的情况下，如何优化)
+- in-order 迭代器
+    - Time: O(k), Space: O(N)
+```
+public int kthSmallest(TreeNode root, int k) {
+    Stack<TreeNode> stack = new Stack<>();
+    while(root!=null) {
+        stack.push(root);
+        root = root.left;
+    }
+    int res = -1;
+    while(k>0) {
+        TreeNode curr = stack.pop();
+        res = curr.val;
+        if(curr.right!=null) {
+            curr = curr.right;
+            while(curr!=null) {
+                stack.push(curr);
+                curr = curr.left;
+            }
+        } 
+        k--;
+    }   
+    return res;
+}
+```
+
+#### 进阶: Closest Binary Search Tree Value II
+
+
+#### LCA of Binary Tree
+- 分治思想
+    - 左右分治汇总，那边找到返回那边给上面，如果两边都找到返回当前节点(就是LCA)
+- Time: O(N), Space: O(h)
+```
+private TreeNode dq(TreeNode root, TreeNode A, TreeNode B) {
+    if(root==null) return null;
+
+    TreeNode l = dq(root.left, A, B);
+    TreeNode r = dq(root.right, A, B);
+
+    // root is A/B return
+    if(root.val==A.val || root.val==B.val) {
+        return root;
+    }
+    // 左右都找到了
+    if(l!=null && r!=null) {
+        return root;
+    }
+
+    // 只有左边找到了(或者左边两个都找到了)
+    //只有右边找到了(或者右边两个都找到了)
+    return l!=null? l: (r!=null? r: null);
+}
+```
+
+#### Find larget sum/avg subtree
+- 分治思想
+    - 建立一个object保存sum/avg 然后分治打擂台
+
+
+#### Invert Binary Tree
+- 分治思想
+    - 从下到上依次左右换
+```
+private TreeNode dq(TreeNode root) {
+     if(root==null) return null;
+ 
+     TreeNode l = dq(root.left);
+     TreeNode r = dq(root.right);
+     
+     root.left = r;
+     root.right = l;
+ 
+     return root;
+ }
+```
+
+#### Validate BST
+- 分治思想
+    - 不是BST条件：mid<=left or mid>=right or mid<=left.max or mid>=right.min
+    - 证明后面两个条件正确性：是BST -> mid>left.max 保证mid比左边所有值都大，mid<right.min 保证mid比右边所有值都小
+- 这个分治不仅要考虑局部BST性质，还要维护跨层级的BST性质
+
+```
+private Result dq(TreeNode root) {
+    Result res = new Result(true, Integer.MIN_VALUE, Integer.MAX_VALUE);
+    if(root==null) return res;
+
+    Result l = dq(root.left);
+    Result r = dq(root.right);
+
+    // all nodes in left subtree should < mid
+    // all nodes in right subtree should > mid 
+    if(!l.bst || !r.bst) res.bst = false;
+    if(root.right!=null && (root.val>=root.right.val || root.val>=r.min)) res.bst = false;
+    if(root.left!=null && (root.val<=root.left.val || root.val<=l.max)) res.bst = false;
+
+    res.max = Math.max(Math.max(root.val, r.max), l.max);
+    res.min = Math.min(Math.min(root.val, r.min), l.min);
+
+    return res;
+}
+
+```
+
+#### Search Rango in BST
+- DFS思想
+    - 中序遍历一遍，找到满足条件的
+    - 剪枝优化: 根据BST性质，[k1,k2]之外的节点没有比较进行左右延申
+```
+private void dfs(TreeNode root, int k1, int k2) {
+    if(root==null) return;
+
+    // root > k1 [k1, ... root, ... k2] 可以再向左试探一下
+    if(root.val>k1) dfs(root.left, k1, k2);
+    if(root.val<=k2 && root.val>=k1) res.add(root.val);
+    // root < k2 [k1, ... root, ... k2] 可以再向右试探一下
+    if(root.val<k2) dfs(root.right, k1, k2);
+
+}
+```
+- 分治思想(很慢)
+    - 将左右满足条件的保存在list返回，上面整合左右两个list
+    
+
