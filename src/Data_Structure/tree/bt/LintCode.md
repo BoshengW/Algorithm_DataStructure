@@ -29,7 +29,6 @@ public TreeNode inorderPredecessor(TreeNode root, TreeNode p) {
 }
 ```
 - recursion
-
 #### 寻找后继节点
 
 
@@ -115,6 +114,9 @@ public List<List<Integer>> levelOrder(TreeNode root) {
 
 }
 ```
+
+#### Zigzag Level Order Traversal
+- BFS层级遍历
 
 #### 寻找所有路径
 - Divide & Conquer
@@ -394,3 +396,88 @@ private void dfs(TreeNode root, int k1, int k2) {
     - 将左右满足条件的保存在list返回，上面整合左右两个list
     
 
+#### Serialize and Deserialize Binary Tree
+- 将完美二叉树数组转化为二叉树结构
+- 分治思想: 根据数组index,从下到上建立树结构
+    - Time:
+        - 二叉树编码: BFS - O(N) #nodes of tree
+        - 二叉树解码: 分治 - O(logN) 
+    - Space:
+        - 二叉树编码：BFS - queue - O(2^(h-1)) 叶子节点个数2^(h-1)
+        - 二叉树解码: 分治 - stack - O(h) - 完美二叉树 - O(logN);
+```
+// 层级遍历编码成完美二叉树
+public String serialize(TreeNode root) {
+    // return a perfect BT
+    String res = "";
+    if(root==null) return res;
+    Queue<TreeNode> queue = new LinkedList<>();
+    queue.offer(root);
+
+    int h = getH(root);
+
+    while(h>0) {
+        int size = queue.size();
+        for(int i=0; i<size; i++) {
+            TreeNode node = queue.poll();
+            if(node==null) {
+                res += (" " + "#"); // add curr as #
+                queue.offer(null); // add left child
+                queue.offer(null); // add right child
+            } else {
+                res += (" " + node.val); // add curr val
+                if(node.left!=null) queue.offer(node.left);
+                else queue.offer(null);
+
+                if(node.right!=null) queue.offer(node.right);
+                else queue.offer(null);
+            }
+        }
+        h--;
+    }
+    return res.substring(1);
+
+}
+
+private int getH(TreeNode root) {
+    if(root==null) return 0;
+
+    int l = getH(root.left);
+    int r = getH(root.right);
+
+    return Math.max(l, r) + 1;
+}
+
+// 将数组转化为树结构，分治可以
+public TreeNode deserialize(String data) {
+    if(data.equals("")) return null;
+    String[] arr = data.split(" ");
+    return arr2Tree(arr, 0);
+}
+
+private TreeNode arr2Tree(String[] arr, int idx) {
+    TreeNode curr = null;
+    if(idx>=arr.length) return curr;
+    // if(2*idx+1>=arr.size()) {
+    //     // child not exist in arr; which mean it's left node
+    //     if(arr.get(idx).equals("#")) return curr;
+
+    //     int val = String.parseInt(arr.get(idx));
+    //     curr = new TreeNode(val);
+    //     return curr;
+    // }
+
+    TreeNode l = arr2Tree(arr, 2*idx+1);
+    TreeNode r = arr2Tree(arr, 2*idx+2);
+    
+    if(arr[idx].equals("#")) return curr;
+    
+    int val = Integer.parseInt(arr[idx]);
+    curr = new TreeNode(val);
+    if(l!=null) curr.left = l;
+    if(r!=null) curr.right = r;
+
+    return curr;
+}
+```
+    

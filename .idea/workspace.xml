@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a91aefba-d5bb-4d1b-bcb9-37f2723ccbe9" name="Default Changelist" comment="Add Longest Palindronmic Substring Enumeration solution">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data_Structure/tree/bt/LintCode.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/tree/bt/LintCode.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -209,6 +210,7 @@
       <workItem from="1637025345561" duration="8339000" />
       <workItem from="1637084074236" duration="406000" />
       <workItem from="1637084543029" duration="16000" />
+      <workItem from="1637212544740" duration="8563000" />
     </task>
     <task id="LOCAL-00001" summary="Add Longest Palindronmic Substring Enumeration solution">
       <created>1622781079047</created>
@@ -313,12 +315,13 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="91" y="0" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1634866101256" />
-    <state x="343" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1637019534536">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="686" y="2" width="1344" height="1396" key="search.everywhere.popup" timestamp="1637291136042">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="343" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680/3840.0.1920.1040@0.0.1280.680" timestamp="1632497976232" />
     <state x="4355" y="2" width="1008" height="1037" key="search.everywhere.popup/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1631118248775" />
     <state x="343" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1637019534536" />
+    <state x="686" y="2" width="1344" height="1396" key="search.everywhere.popup/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1637291136042" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
