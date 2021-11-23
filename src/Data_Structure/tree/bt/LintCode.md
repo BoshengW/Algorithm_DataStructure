@@ -28,7 +28,6 @@ public TreeNode inorderPredecessor(TreeNode root, TreeNode p) {
     return null;
 }
 ```
-- recursion
 #### 寻找后继节点
 
 
@@ -37,7 +36,7 @@ public TreeNode inorderPredecessor(TreeNode root, TreeNode p) {
 
 - 迭代器
     - 前序遍历每一次pop 根节点时将左右儿子放入stack(先右再左 - 因为LIFO)
-    - Time: O(#Node), Space: O(#Node) 
+    - Time: O(#Node), Space: O(h) 
 ```
 private TreeNode next() {
     TreeNode node = stack.pop();
@@ -54,7 +53,7 @@ private TreeNode next() {
     - 中序遍历先将最左节点路径加入，然后依次pop
         - 如果pop的节点是一个中节点(根节点) - (假如有右儿子) 则将右儿子左子树路径加入
         - 如果pop节点是叶子节点，直接pop即可
-    - Time: O(#Node), Space: O(#Node)
+    - Time: O(#Node), Space: O(h)
 ```
 public TreeNode next() {
     // write your code here
@@ -117,6 +116,50 @@ public List<List<Integer>> levelOrder(TreeNode root) {
 
 #### Zigzag Level Order Traversal
 - BFS层级遍历
+```
+public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
+    // write your code here
+    Stack<TreeNode> stack =  new Stack<>();
+    Deque<TreeNode> queue = new ArrayDeque<>();
+    boolean re = false; // reverse direction
+
+    List<List<Integer>> res = new ArrayList<>();
+    if(root==null) return res;
+
+    queue.offer(root);
+    // stack.push(root);
+    while(!queue.isEmpty() || !stack.isEmpty()) {
+        List<Integer> level = new ArrayList<>();
+
+        if(!re) {
+            // general direction 
+            int size = queue.size();
+            for(int i=0; i<size; i++) {
+                TreeNode curr = queue.poll(); // LILO
+                level.add(curr.val);
+                // System.out.print(" " + curr.val);
+                if(curr.left!=null) stack.push(curr.left);
+                if(curr.right!=null) stack.push(curr.right);
+            }
+            res.add(level);
+            re = true; // next level reverse
+        } else {
+            int size = stack.size();
+            for(int i=0; i<size; i++) {
+                TreeNode curr = stack.pop(); // LIFO
+                level.add(curr.val);
+                // System.out.print(" " + curr.val);
+                if(curr.right!=null) queue.addFirst(curr.right);
+                if(curr.left!=null) queue.addFirst(curr.left);
+            }
+            res.add(level);
+            re = false; // next level general
+        }
+    }
+
+    return res;
+}
+```
 
 #### 寻找所有路径
 - Divide & Conquer
@@ -212,7 +255,6 @@ private int dq(TreeNode root) {
 }
 ```
 ####二叉树中最接近target的节点
-
 - 分治法
     - Time: O(N), Space: O(N)
 
@@ -232,7 +274,7 @@ private int dq(TreeNode root, double target) {
 }
 ```
 - DFS 遍历所有节点找最接近的
-- 最优解 BST二分寻找上下边界
+- 最优解 BST二分寻找上下边界 - 前驱后驱背向双指针
     - Time: 普通BST O(h) 树高, 平衡二叉树 O(logN)
     
 #### Flatten Binary Tree to Linked List

@@ -1,4 +1,4 @@
-package Data_Structure.graph.bfs;
+package Data_Structure.bfs;
 
 import java.util.*;
 

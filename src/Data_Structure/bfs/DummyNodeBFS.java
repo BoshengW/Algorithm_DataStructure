@@ -1,4 +1,4 @@
-package Data_Structure.graph.bfs;
+package Data_Structure.bfs;
 
 /**
  * Time Complexity: Linear time O(n): N is nodes in Data_Structure.tree or Data_Structure.graph
