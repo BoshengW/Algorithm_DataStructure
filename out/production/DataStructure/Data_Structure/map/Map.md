@@ -6,7 +6,7 @@ Map用于存储具有映射关系的数据。Map中存了两组数据(key与valu
 - key 无重复，value 允许重复
 - 允许 key 和 value 为空
 - 数据无序
-```aidl
+```
 public class Solution {
     public static void main(String[] args){
         Map<String, String> Data_Structure.map = new HashMap<>();
@@ -41,7 +41,7 @@ key = 5, value = 5
 - key 不允许有 null，value 允许有 null
 - 有序(存入元素的时候对元素进行自动排序，迭代输出的时候就按排序顺序输出)
 
-```aidl
+```
 public class Solution {
     public static void main(String[] args){
         Map<String, String> Data_Structure.map = new TreeMap<>();

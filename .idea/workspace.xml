@@ -3,43 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="a91aefba-d5bb-4d1b-bcb9-37f2723ccbe9" name="Default Changelist" comment="Add Longest Palindronmic Substring Enumeration solution">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/Advance_Algorithm/dynamic_program/dp/dp.md~HEAD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/Basic_Algorithm/recursion/DivideConquer.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructure/Basic_Algorithm/recursion/DivideConquer.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/Basic_Algorithm/twopointer/sameDirection/MoveToZero.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructure/Basic_Algorithm/twopointer/sameDirection/MoveToZero.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/Basic_Algorithm/twopointer/sameDirection/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/Basic_Algorithm/twopointer/sameDirection/sameDirect.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructure/Basic_Algorithm/twopointer/sameDirection/sameDirect.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/Data_Structure/graph/bfs/BFS.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/Data_Structure/graph/bfs/BFSTemplate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/Data_Structure/graph/bfs/DoubleQueueBFS.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/Data_Structure/graph/bfs/DummyNodeBFS.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/Data_Structure/graph/bfs/Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/Data_Structure/graph/bfs/SingleQueueBFS.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/Data_Structure/graph/bfs/TreeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/Data_Structure/graph/dfs/DFS.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/Data_Structure/graph/dfs/DFSTemplate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/Data_Structure/graph/dfs/SubSet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/Data_Structure/stack/mono_stack/MonoStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructure/Data_Structure/stack/mono_stack/MonoStack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/Data_Structure/tree/BinaryTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/Data_Structure/tree/TreeIterator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/Data_Structure/tree/TreeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/Data_Structure/tree/bst/BST.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructure/Data_Structure/tree/bst/BST.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/Data_Structure/tree/bst/BST.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructure/Data_Structure/tree/bst/BST.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/Data_Structure/tree/bt/LintCode.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructure/Data_Structure/tree/bt/LintCode.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/Data_Structure/tree/bt/Tree.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/Data_Structure/tree/bt/TreeIterator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/META-INF/DataStructure.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Basic_Algorithm/recursion/DivideConquer.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Basic_Algorithm/recursion/DivideConquer.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Data_Structure/graph/bfs/BFS.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/bfs/BFS.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Data_Structure/graph/bfs/BFSTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/bfs/BFSTemplate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Data_Structure/graph/bfs/DoubleQueueBFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/bfs/DoubleQueueBFS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Data_Structure/graph/bfs/DummyNodeBFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/bfs/DummyNodeBFS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Data_Structure/graph/bfs/SingleQueueBFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/bfs/SingleQueueBFS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Data_Structure/graph/dfs/DFS.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/dfs/DFS.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Data_Structure/graph/dfs/DFSTemplate.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Data_Structure/graph/dfs/SubSet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Data_Structure/tree/Tree.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/tree/bt/BinaryTree.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Data_Structure/tree/bst/LintCode.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/tree/bst/LintCode.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Data_Structure/tree/bt/LintCode.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/tree/bt/LintCode.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data_Structure/dfs/DFS.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/dfs/DFS.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data_Structure/dfs/graph/LintCode.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/dfs/graph/LintCode.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data_Structure/graph/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/graph/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data_Structure/map/Map.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/map/Map.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data_Structure/set/Set.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/set/Set.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data_Structure/trie/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/trie/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Data_Structure/trie/trie.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/trie/trie.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -113,6 +82,9 @@
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\13820\OneDrive\桌面\Algorithm_DataStructure\src\basicAlgo\Recursion" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Algo_DS\Algorithm_DataStructure\src\Data_Structure\dfs" />
       <recent name="D:\Algo_DS\Algorithm_DataStructure\src\Data_Structure\dfs\tree" />
@@ -120,11 +92,8 @@
       <recent name="C:\Users\13820\OneDrive\桌面\Algorithm_DataStructure\src\Data_Structure\tree" />
       <recent name="C:\Users\13820\OneDrive\桌面\Algorithm_DataStructure\src\Data_Structure\tree\bt" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\13820\OneDrive\桌面\Algorithm_DataStructure\src\basicAlgo\Recursion" />
-    </key>
   </component>
-  <component name="RunManager" selected="Application.Binarize">
+  <component name="RunManager" selected="Application.Solution (1)">
     <configuration name="Binarize" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Basic_Algorithm.binarize.Binarize" />
       <module name="DataStructure" />
@@ -151,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolarPanel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Advance_Algorithm.dynamic_program.dp.SolarPanel" />
+    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Data_Structure.trie.Solution" />
       <module name="DataStructure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Advance_Algorithm.dynamic_program.dp.*" />
+          <option name="PATTERN" value="Data_Structure.trie.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,12 +133,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Basic_Algorithm.binary_search.Solution" />
+    <configuration name="Solution2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Data_Structure.trie.Solution2" />
       <module name="DataStructure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Basic_Algorithm.binary_search.*" />
+          <option name="PATTERN" value="Data_Structure.trie.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -192,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution (1)" />
+        <item itemvalue="Application.Solution2" />
         <item itemvalue="Application.Binarize" />
         <item itemvalue="Application.MonoStack" />
         <item itemvalue="Application.test" />
-        <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.SolarPanel" />
       </list>
     </recent_temporary>
   </component>
@@ -247,7 +216,8 @@
       <workItem from="1637025345561" duration="8339000" />
       <workItem from="1637084074236" duration="406000" />
       <workItem from="1637084543029" duration="16000" />
-      <workItem from="1637212544740" duration="38507000" />
+      <workItem from="1637212544740" duration="42806000" />
+      <workItem from="1637700920196" duration="19045000" />
     </task>
     <task id="LOCAL-00001" summary="Add Longest Palindronmic Substring Enumeration solution">
       <created>1622781079047</created>
@@ -280,10 +250,11 @@
     <option name="LAST_COMMIT_MESSAGE" value="Add Longest Palindronmic Substring Enumeration solution" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="4545" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1634317818692">
-      <screen x="3840" y="0" width="1920" height="1040" />
+    <state x="940" y="433" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1637903026900">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="4545" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1634317818692" />
+    <state x="940" y="433" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1637903026900" />
     <state x="188" y="194" width="2184" height="1013" key="DiffContextDialog" timestamp="1637084444944">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -294,60 +265,64 @@
     </state>
     <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1634866059763" />
     <state x="842" y="196" key="FileChooserDialogImpl/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1637084557407" />
-    <state width="1234" height="381" key="GridCell.Tab.0.bottom" timestamp="1637620706786">
+    <state width="1234" height="487" key="GridCell.Tab.0.bottom" timestamp="1637869187492">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1877" height="431" key="GridCell.Tab.0.bottom/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1632238985047" />
     <state width="595" height="235" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1636995428046" />
-    <state width="1234" height="381" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1637620706786" />
-    <state width="1234" height="381" key="GridCell.Tab.0.center" timestamp="1637620706786">
+    <state width="1234" height="487" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1637869187492" />
+    <state width="1234" height="487" key="GridCell.Tab.0.center" timestamp="1637869187491">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1877" height="431" key="GridCell.Tab.0.center/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1632238985046" />
     <state width="595" height="235" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1636995428045" />
-    <state width="1234" height="381" key="GridCell.Tab.0.center/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1637620706786" />
-    <state width="1234" height="381" key="GridCell.Tab.0.left" timestamp="1637620706786">
+    <state width="1234" height="487" key="GridCell.Tab.0.center/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1637869187491" />
+    <state width="1234" height="487" key="GridCell.Tab.0.left" timestamp="1637869187491">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1877" height="431" key="GridCell.Tab.0.left/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1632238985046" />
     <state width="595" height="235" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1636995428045" />
-    <state width="1234" height="381" key="GridCell.Tab.0.left/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1637620706786" />
-    <state width="1234" height="381" key="GridCell.Tab.0.right" timestamp="1637620706786">
+    <state width="1234" height="487" key="GridCell.Tab.0.left/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1637869187491" />
+    <state width="1234" height="487" key="GridCell.Tab.0.right" timestamp="1637869187492">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1877" height="431" key="GridCell.Tab.0.right/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1632238985046" />
     <state width="595" height="235" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1636995428045" />
-    <state width="1234" height="381" key="GridCell.Tab.0.right/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1637620706786" />
-    <state width="1237" height="217" key="GridCell.Tab.1.bottom" timestamp="1636519413156">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1234" height="487" key="GridCell.Tab.0.right/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1637869187492" />
+    <state width="1234" height="487" key="GridCell.Tab.1.bottom" timestamp="1637869187616">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1877" height="431" key="GridCell.Tab.1.bottom/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1632238629721" />
     <state width="1237" height="217" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1636519413156" />
-    <state width="1237" height="217" key="GridCell.Tab.1.center" timestamp="1636519413156">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1234" height="487" key="GridCell.Tab.1.bottom/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1637869187616" />
+    <state width="1234" height="487" key="GridCell.Tab.1.center" timestamp="1637869187616">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1877" height="431" key="GridCell.Tab.1.center/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1632238629720" />
     <state width="1237" height="217" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1636519413156" />
-    <state width="1237" height="217" key="GridCell.Tab.1.left" timestamp="1636519413156">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1234" height="487" key="GridCell.Tab.1.center/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1637869187616" />
+    <state width="1234" height="487" key="GridCell.Tab.1.left" timestamp="1637869187616">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1877" height="431" key="GridCell.Tab.1.left/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1632238629720" />
     <state width="1237" height="217" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1636519413156" />
-    <state width="1237" height="217" key="GridCell.Tab.1.right" timestamp="1636519413156">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1234" height="487" key="GridCell.Tab.1.left/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1637869187616" />
+    <state width="1234" height="487" key="GridCell.Tab.1.right" timestamp="1637869187616">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1877" height="431" key="GridCell.Tab.1.right/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1632238629720" />
     <state width="1237" height="217" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1636519413156" />
+    <state width="1234" height="487" key="GridCell.Tab.1.right/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1637869187616" />
     <state x="242" y="0" key="SettingsEditor" timestamp="1637006288323">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="242" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1637006288323" />
-    <state x="1310" y="338" key="com.intellij.ide.util.TipDialog" timestamp="1637212544736">
+    <state x="1310" y="338" key="com.intellij.ide.util.TipDialog" timestamp="1637701226953">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="4823" y="251" key="com.intellij.ide.util.TipDialog/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1632235830264" />
     <state x="655" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1637025396338" />
-    <state x="1310" y="338" key="com.intellij.ide.util.TipDialog/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1637212544736" />
+    <state x="1310" y="338" key="com.intellij.ide.util.TipDialog/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1637701226953" />
     <state x="431" y="8" width="757" height="668" key="dock-window-1" timestamp="1636494498902">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -356,13 +331,13 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="91" y="0" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1634866101256" />
-    <state x="686" y="2" width="1344" height="1396" key="search.everywhere.popup" timestamp="1637607355721">
+    <state x="686" y="2" width="1344" height="1396" key="search.everywhere.popup" timestamp="1637692057689">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="343" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680/3840.0.1920.1040@0.0.1280.680" timestamp="1632497976232" />
     <state x="4355" y="2" width="1008" height="1037" key="search.everywhere.popup/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1631118248775" />
     <state x="343" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1637019534536" />
-    <state x="686" y="2" width="1344" height="1396" key="search.everywhere.popup/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1637607355721" />
+    <state x="686" y="2" width="1344" height="1396" key="search.everywhere.popup/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1637692057689" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -471,6 +446,26 @@
           <url>file://$PROJECT_DIR$/src/Advance_Algorithm/dynamic_program/dp/SolarPanel.java</url>
           <line>35</line>
           <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Data_Structure/trie/Solution2.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Data_Structure/trie/Solution2.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Data_Structure/trie/Solution2.java</url>
+          <line>77</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Data_Structure/trie/Solution.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="48" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

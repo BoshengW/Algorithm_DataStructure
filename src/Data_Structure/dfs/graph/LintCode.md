@@ -390,4 +390,47 @@ private void dfs(char[][] board,
 - 最优解 Trie
 
 
-#### Word Break III
+##### Word Break III
+
+#### 字符串分割问题
+##### Restore IP Address
+- 一个valid IP address
+    - length ~ [4, 12]
+    - 3 dots
+    - 每个区域数 ~[0,255] - 0 只能单独一个区域
+        - 不能有 .00 只能 .0
+        
+- DFS 组合思路 选一位，两位，三位
+```
+private void dfs(char[] arr,
+                String curr,
+                int idx,
+                int pt,
+                List<String> res) {
+    if(idx==arr.length) {
+        // touch end
+        if(pt==-1) res.add(curr.substring(0, curr.length()-1));
+        return;
+    } 
+
+    if(arr[idx]=='0') dfs(arr, curr+arr[idx]+'.', idx+1, pt-1, res);
+    else {
+        String tmp = "";
+        for(int i=idx; i<=idx+2 && i<arr.length; i++) {
+            tmp += arr[i];
+            if(check(tmp)) dfs(arr, curr+tmp+".", i+1, pt-1, res);
+        }
+    }
+
+
+}
+
+private boolean check(String num) {
+    if(Integer.parseInt(num)>255) return false;
+    return true;
+}
+```
+
+
+#### 经典 DFS问题
+##### N - Queens 问题
