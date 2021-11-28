@@ -42,23 +42,14 @@ dn = an - an-1
 
 ##### 数组堆化
 - 特点:
-    - 堆是用来维护一个数组集合
     - 大小顶堆: 堆内顺序不确定，但是top一定最大最小
 - 应答功能
     - 查询数组最大小值 - O(1) 
     - 插入 - O(logN)
     - 删除top - O(logN)
 - Java堆使用
-    - 默认是小顶堆
 ```
-// Default 
-PriorityQueue<Integer> heap = new PriorityQueue<>();
 
-// Make a Max Heap
-PriorityQueue<Object> heap = new PriorityQueue<>((x,y) -> {return y.val-x.val;});
-
-// Make a Max Heap
-PriorityQueue<Object> heap = new PriorityQueue<>((x,y) -> y.compareTo(x));
 ```
 
 ##### 循环数组
@@ -75,60 +66,10 @@ PriorityQueue<Object> heap = new PriorityQueue<>((x,y) -> y.compareTo(x));
 
 
 #### 哈希
-- 重点: HashMap. HashSet并不是真正O(1)查找
-    - 数值hash可以通过一个计算得到hash值 - O(1)
-    - 但是字符串求解hash值，需要每一次遍历一遍字符串计算hash值 - O(Length)
 ##### 重哈希 rehashing
 ##### HashMap
-- 特点:
-    - 无序数据结构
-    - key无重复值，不能是null
-    - value可以有重复值
-    - 通常用来 - 分类统计(频率)
-- 应答功能
-    - 增、删、改、查 key - O(1)
-        - 查 value - O(N) 
-    - 遍历 - O(N)
-```
-HashMap<~> map = new HashMap<>();
-
-// CRUD 操作
-map.put(key, value);
-map.get(key);
-map.remove(key);
-map.put(old-key, new-value);
-map.containsKey(key);
-map.containsValue(value);
-
-// 
-map.getOrDefault(key, default-value);
-map.size();
-
-// 遍历
-for(object key: map.keyset()) {}
-for(Entry entry: map.EntrySet()) {}
-
-```
 
 ##### HashSet
-- 特点:
-    - 无序的数据结构
-    - 无重复值
-    - 适用于快速查找某个值存不存在
-- 应答功能
-    - 增、删、查 - O(1)
-    - 遍历 - O(N)
-    
-```
-Set<~> hashset = new HashSet<>();
-
-// CRUD
-hashset.add(<~>)
-hashset.remove(<~>)
-hashset.contains(<~>)
-hashset.size()
-
-```
 
 
 ##### 字符串哈希 - Robin-karp

@@ -13,11 +13,37 @@
 #### 堆化
 - 堆中每一个节点满足下面定义
     - A[i] 左右儿子：A[i*2+1], A[i*2+2]
-    - 堆化并不保证有序(左右孩子大小不确定) 
+    - 堆化并不保证有序(左右孩子大小不确定)
+- 堆的所有操作都可以通过ShiftDown/ShiftUp
+    - peek() - heap[0]
+    - insert() - heap[++size] -> shiftUp(size)
+    - deleteTop() - heap[0] = heap[size] -> shiftDown(1)
+    - insert(k) - 在index k处插入 - heap[k] = x -> shiftUp(k)/shiftDown(k)
+    - delete(k) - 在index k处删除 - heap[k] = heap[size] -> shiftDown(k)/shiftUp(k)
+     
+- ShiftDown 操作
+```
+private void down(int[] A, int i) {
+    while(i<A.length/2) {
+        int ne = i;
+        // 与左右儿子比较找到最小值
+        if(2*i + 1<A.length && A[ne]<A[2*i+1]) ne = 2*i + 1;
+        if(2*i + 2<A.length && A[ne]<A[2*i+2]) ne = 2*i + 2;
+        if(i!=ne) {
+            swap(A[i], A[ne]);
+            i = ne;
+        } else break;
+    }
+}
 
+```
+- ShiftUp 操作
+```
+```
 #### 堆排序
 - 堆排序讲解 - [https://www.cnblogs.com/chengxiao/p/6129630.html]
 - 在堆结构上进行堆排序流程
+
 ```
  - Data_Structure.heap: [9,6,5,3,4]  每一次将当前堆最大的顶点0放到最后length-i
  - [4, 6, 5, 3, 9] ->然后对[0, length-i-1] 进行堆化，得到当前最大值
@@ -31,3 +57,7 @@
 - 相比较Quick Sort & Merge Sort
     - 时间上N基数会大一些，会慢一点
     - 空间上远优于两者
+    
+```
+
+```

@@ -1,6 +1,7 @@
 package Data_Structure.heap;
 
 import java.util.Arrays;
+import java.util.PriorityQueue;
 
 public class Solution {
     /**
@@ -51,11 +52,40 @@ public class Solution {
         }
     }
 
-    public static void main(String[] args) {
-        int[] testcase = {3,2,1,4};
-        Solution obj = new Solution();
-        obj.sortIntegers2(testcase);
+    class Sample {
+        int val;
+        int time;
 
-        System.out.println(Arrays.toString(testcase));
+        public int getVal(){
+            return this.val;
+        }
+    }
+
+    public static void main(String[] args) {
+        // Default heap - min Heap
+        PriorityQueue<Integer> heap = new PriorityQueue<>();
+        heap.add(10);
+        heap.add(5);
+        heap.add(-1);
+        System.out.println(heap.peek());
+
+        // make a max heap
+        PriorityQueue<Integer> maxHeap = new PriorityQueue<>(
+                (x, y) -> {return y-x;}
+        );
+
+        // make a max heap
+        PriorityQueue<Integer> maxHeap2 = new PriorityQueue<>(
+                (x, y) -> y.compareTo(x)
+        );
+
+        maxHeap2.add(10);
+        maxHeap2.add(5);
+        maxHeap2.add(-1);
+        System.out.println(maxHeap2.peek());
+
+        PriorityQueue<Sample> heap3 = new PriorityQueue<>(
+                (Sample x, Sample y) -> y.val - x.val
+        );
     }
 }
