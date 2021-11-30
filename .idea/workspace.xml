@@ -3,9 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="a91aefba-d5bb-4d1b-bcb9-37f2723ccbe9" name="Default Changelist" comment="Add Longest Palindronmic Substring Enumeration solution">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Code_Interview/data_structure/basic.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Code_Interview/data_structure/basic.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Data_Structure/heap/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/heap/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Data_Structure/heap/heap.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/heap/heap.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/Code_Interview/data_structure/basic.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructure/Code_Interview/data_structure/basic.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/Data_Structure/heap/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructure/Data_Structure/heap/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/Data_Structure/heap/heap.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructure/Data_Structure/heap/heap.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/Data_Structure/stack/mono_stack/MonoStack.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructure/Data_Structure/stack/mono_stack/MonoStack.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Advance_Algorithm/dynamic_program/dp/LIS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Advance_Algorithm/dp/LIS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Advance_Algorithm/dynamic_program/dp/SolarPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Advance_Algorithm/dp/SolarPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Advance_Algorithm/dynamic_program/dp/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Advance_Algorithm/dp/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Advance_Algorithm/dynamic_program/dp/dp.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Advance_Algorithm/dp/dp.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Advance_Algorithm/dynamic_program/memo/memo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Advance_Algorithm/memo/memo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Advance_Algorithm/dynamic_program/memo/memo.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Advance_Algorithm/memo/memo.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data_Structure/stack/mono_stack/MonoStack.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/stack/mono_stack/MonoStack.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,9 +60,9 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/Code_Interview/String/palindronmic_substring/Longest_Palindronmic_subsequence.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/Code_Interview/String/palindronmic_substring/LongestPalindronmicSubstring.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/Data_Structure/kmp/ImplementStrstr.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Code_Interview/String/palindronmic_substring/Longest_Palindronmic_subsequence.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
@@ -89,13 +97,13 @@
       <recent name="C:\Users\13820\OneDrive\桌面\Algorithm_DataStructure\src\Data_Structure\tree\bt" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution">
-    <configuration name="Binarize" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Basic_Algorithm.binarize.Binarize" />
+  <component name="RunManager" selected="Application.MaxStack">
+    <configuration name="LRUCache" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Code_Interview.data_structure.LRUCache" />
       <module name="DataStructure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Basic_Algorithm.binarize.*" />
+          <option name="PATTERN" value="Code_Interview.data_structure.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MonoStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Data_Structure.stack.mono_stack.MonoStack" />
+    <configuration name="MaxStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Data_Structure.stack.MaxStack" />
       <module name="DataStructure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Data_Structure.stack.mono_stack.*" />
+          <option name="PATTERN" value="Data_Structure.stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaxStack" />
+        <item itemvalue="Application.LRUCache" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Solution2" />
-        <item itemvalue="Application.Binarize" />
-        <item itemvalue="Application.MonoStack" />
       </list>
     </recent_temporary>
   </component>
@@ -215,6 +223,7 @@
       <workItem from="1637212544740" duration="42806000" />
       <workItem from="1637700920196" duration="19045000" />
       <workItem from="1638053072767" duration="10064000" />
+      <workItem from="1638199632350" duration="9149000" />
     </task>
     <task id="LOCAL-00001" summary="Add Longest Palindronmic Substring Enumeration solution">
       <created>1622781079047</created>
@@ -262,64 +271,64 @@
     </state>
     <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1638053086608" />
     <state x="842" y="196" key="FileChooserDialogImpl/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1637084557407" />
-    <state width="1237" height="235" key="GridCell.Tab.0.bottom" timestamp="1638061728586">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1234" height="479" key="GridCell.Tab.0.bottom" timestamp="1638219079497">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1877" height="431" key="GridCell.Tab.0.bottom/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1632238985047" />
     <state width="1237" height="235" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1638061728586" />
-    <state width="1234" height="487" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1637869187492" />
-    <state width="1237" height="235" key="GridCell.Tab.0.center" timestamp="1638061728586">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1234" height="479" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1638219079497" />
+    <state width="1234" height="479" key="GridCell.Tab.0.center" timestamp="1638219079497">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1877" height="431" key="GridCell.Tab.0.center/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1632238985046" />
     <state width="1237" height="235" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1638061728586" />
-    <state width="1234" height="487" key="GridCell.Tab.0.center/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1637869187491" />
-    <state width="1237" height="235" key="GridCell.Tab.0.left" timestamp="1638061728586">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1234" height="479" key="GridCell.Tab.0.center/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1638219079497" />
+    <state width="1234" height="479" key="GridCell.Tab.0.left" timestamp="1638219079497">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1877" height="431" key="GridCell.Tab.0.left/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1632238985046" />
     <state width="1237" height="235" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1638061728586" />
-    <state width="1234" height="487" key="GridCell.Tab.0.left/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1637869187491" />
-    <state width="1237" height="235" key="GridCell.Tab.0.right" timestamp="1638061728586">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1234" height="479" key="GridCell.Tab.0.left/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1638219079497" />
+    <state width="1234" height="479" key="GridCell.Tab.0.right" timestamp="1638219079497">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1877" height="431" key="GridCell.Tab.0.right/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1632238985046" />
     <state width="1237" height="235" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1638061728586" />
-    <state width="1234" height="487" key="GridCell.Tab.0.right/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1637869187492" />
-    <state width="1234" height="487" key="GridCell.Tab.1.bottom" timestamp="1637869187616">
+    <state width="1234" height="479" key="GridCell.Tab.0.right/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1638219079497" />
+    <state width="1234" height="479" key="GridCell.Tab.1.bottom" timestamp="1638219079806">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1877" height="431" key="GridCell.Tab.1.bottom/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1632238629721" />
     <state width="1237" height="217" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1636519413156" />
-    <state width="1234" height="487" key="GridCell.Tab.1.bottom/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1637869187616" />
-    <state width="1234" height="487" key="GridCell.Tab.1.center" timestamp="1637869187616">
+    <state width="1234" height="479" key="GridCell.Tab.1.bottom/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1638219079806" />
+    <state width="1234" height="479" key="GridCell.Tab.1.center" timestamp="1638219079806">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1877" height="431" key="GridCell.Tab.1.center/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1632238629720" />
     <state width="1237" height="217" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1636519413156" />
-    <state width="1234" height="487" key="GridCell.Tab.1.center/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1637869187616" />
-    <state width="1234" height="487" key="GridCell.Tab.1.left" timestamp="1637869187616">
+    <state width="1234" height="479" key="GridCell.Tab.1.center/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1638219079806" />
+    <state width="1234" height="479" key="GridCell.Tab.1.left" timestamp="1638219079806">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1877" height="431" key="GridCell.Tab.1.left/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1632238629720" />
     <state width="1237" height="217" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1636519413156" />
-    <state width="1234" height="487" key="GridCell.Tab.1.left/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1637869187616" />
-    <state width="1234" height="487" key="GridCell.Tab.1.right" timestamp="1637869187616">
+    <state width="1234" height="479" key="GridCell.Tab.1.left/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1638219079806" />
+    <state width="1234" height="479" key="GridCell.Tab.1.right" timestamp="1638219079806">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1877" height="431" key="GridCell.Tab.1.right/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1632238629720" />
     <state width="1237" height="217" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1636519413156" />
-    <state width="1234" height="487" key="GridCell.Tab.1.right/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1637869187616" />
+    <state width="1234" height="479" key="GridCell.Tab.1.right/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1638219079806" />
     <state x="242" y="0" key="SettingsEditor" timestamp="1637006288323">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="242" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1637006288323" />
-    <state x="655" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1638053072880">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="1310" y="338" key="com.intellij.ide.util.TipDialog" timestamp="1638199699726">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="4823" y="251" key="com.intellij.ide.util.TipDialog/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1632235830264" />
     <state x="655" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1638053072880" />
-    <state x="1310" y="338" key="com.intellij.ide.util.TipDialog/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1637701226953" />
+    <state x="1310" y="338" key="com.intellij.ide.util.TipDialog/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1638199699726" />
     <state x="431" y="8" width="757" height="668" key="dock-window-1" timestamp="1636494498902">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -390,12 +399,12 @@
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Advance_Algorithm/dynamic_program/dp/Solution.java</url>
+          <url>file://$PROJECT_DIR$/src/Advance_Algorithm/dp/Solution.java</url>
           <line>12</line>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Advance_Algorithm/dynamic_program/dp/Solution.java</url>
+          <url>file://$PROJECT_DIR$/src/Advance_Algorithm/dp/Solution.java</url>
           <line>39</line>
           <option name="timeStamp" value="17" />
         </line-breakpoint>
@@ -440,7 +449,7 @@
           <option name="timeStamp" value="27" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Advance_Algorithm/dynamic_program/dp/SolarPanel.java</url>
+          <url>file://$PROJECT_DIR$/src/Advance_Algorithm/dp/SolarPanel.java</url>
           <line>35</line>
           <option name="timeStamp" value="29" />
         </line-breakpoint>
@@ -464,8 +473,49 @@
           <line>8</line>
           <option name="timeStamp" value="48" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Code_Interview/data_structure/LRUCache.java</url>
+          <line>85</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Code_Interview/data_structure/LRUCache.java</url>
+          <line>109</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Code_Interview/data_structure/LRUCache.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Data_Structure/stack/MaxStack.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Data_Structure/stack/MaxStack.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Data_Structure/stack/MaxStack.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Data_Structure/stack/MaxStack.java</url>
+          <line>67</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="stk" language="JAVA" />
+        <watch expression="heap" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/DataStructure$QuickSelect.ic" NAME="QuickSelect Coverage Results" MODIFIED="1632200752005" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

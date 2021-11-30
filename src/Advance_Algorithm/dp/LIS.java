@@ -1,4 +1,4 @@
-package Advance_Algorithm.dynamic_program.dp;
+package Advance_Algorithm.dp;
 
 import java.util.Arrays;
 import java.util.LinkedList;
