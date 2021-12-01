@@ -3,17 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="a91aefba-d5bb-4d1b-bcb9-37f2723ccbe9" name="Default Changelist" comment="Add Longest Palindronmic Substring Enumeration solution">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/Code_Interview/data_structure/basic.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructure/Code_Interview/data_structure/basic.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/Data_Structure/heap/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructure/Data_Structure/heap/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/Data_Structure/heap/heap.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructure/Data_Structure/heap/heap.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/Data_Structure/stack/mono_stack/MonoStack.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructure/Data_Structure/stack/mono_stack/MonoStack.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Advance_Algorithm/dynamic_program/dp/LIS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Advance_Algorithm/dp/LIS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Advance_Algorithm/dynamic_program/dp/SolarPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Advance_Algorithm/dp/SolarPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Advance_Algorithm/dynamic_program/dp/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Advance_Algorithm/dp/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Advance_Algorithm/dynamic_program/dp/dp.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Advance_Algorithm/dp/dp.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Advance_Algorithm/dynamic_program/memo/memo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Advance_Algorithm/memo/memo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Advance_Algorithm/dynamic_program/memo/memo.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Advance_Algorithm/memo/memo.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Data_Structure/stack/mono_stack/MonoStack.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/stack/mono_stack/MonoStack.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data_Structure/bfs/BFS.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/bfs/BFS.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data_Structure/tree/bt/BinaryTree.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/tree/bt/BinaryTree.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,9 +51,9 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/Code_Interview/String/palindronmic_substring/Longest_Palindronmic_subsequence.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/Code_Interview/String/palindronmic_substring/LongestPalindronmicSubstring.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/Data_Structure/kmp/ImplementStrstr.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/Code_Interview/String/palindronmic_substring/Longest_Palindronmic_subsequence.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
@@ -337,12 +328,12 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="91" y="0" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1634866101256" />
-    <state x="343" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1638071531987">
+    <state x="343" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1638310591256">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="343" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680/3840.0.1920.1040@0.0.1280.680" timestamp="1632497976232" />
     <state x="4355" y="2" width="1008" height="1037" key="search.everywhere.popup/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1631118248775" />
-    <state x="343" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1638071531987" />
+    <state x="343" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1638310591256" />
     <state x="686" y="2" width="1344" height="1396" key="search.everywhere.popup/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1637692057689" />
   </component>
   <component name="XDebuggerManager">
