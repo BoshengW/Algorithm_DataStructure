@@ -84,4 +84,19 @@ private void dfs(TreeNode root) {
     dfs(root.right)
 }
 ```
-        
+
+#### 二叉树序列化
+- 序列化
+    - 序列化: Object -> String(byte)
+    - 反序列化: String -> Object
+- 为什么需要序列化:
+    - 可持久化保存，内存中的Object断电会消失
+        - 需要通过序列化将内存中的Object保存到硬盘或者其他地方
+    - 网络或者数据传输时
+        - 不能将Java语言Object进行传输 - 对方无法识别
+        - 只能通过序列化成字符串数据流
+
+#####常见序列化方式
+- 数组 -> "[1,2,3]"
+- 链表 -> "1->2->3"
+- HashMap -> "{\"key\": \"value\" }"
