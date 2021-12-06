@@ -1,7 +1,6 @@
 package Data_Structure.heap;
 
-import java.util.Arrays;
-import java.util.PriorityQueue;
+import java.util.*;
 
 public class Solution {
     /**
@@ -87,5 +86,24 @@ public class Solution {
         PriorityQueue<Sample> heap3 = new PriorityQueue<>(
                 (Sample x, Sample y) -> y.val - x.val
         );
+
+        PriorityQueue<Sample> heap4 = new PriorityQueue<>(new Comparator<Sample>() {
+            @Override
+            public int compare(Sample o1, Sample o2) {
+                int diff = 0;
+                if(o1.val!=o1.val) diff = o1.val-o2.val;
+                else diff = o1.time-o2.time;
+                return diff;
+            }
+        });
+
+        List<Sample> list = new ArrayList<>();
+        Collections.sort(list, new Comparator<Sample>() {
+            @Override
+            public int compare(Sample o1, Sample o2) {
+                return 0;
+            }
+        });
+
     }
 }
