@@ -110,5 +110,8 @@ public class Solution2 {
         }
         Solution2 obj = new Solution2();
         obj.wordSearchIII(t1,t3);
+
+        String a = "abcbc";
+        System.out.println(a.indexOf("bc"));
     }
 }

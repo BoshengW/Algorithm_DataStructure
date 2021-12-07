@@ -167,6 +167,9 @@ while(!Data_Structure.queue.isEmpty()) {
 }
 ```
 
+#### 利用BFS解决DFS问题 - 难点
+- 层级遍历: 每一层遍历时前一层的集合(选) + 前一层每一个结果添加当前层元素(不选) => 当前的解
+
 #### 双向宽度优先搜索 - 双向BFS
 - 起点，终点同时出发知道相遇
     - 节省存储空间 - 能节省大概 O(k^(n/2)) k是子节点个数 N是深度
@@ -176,40 +179,47 @@ while(!Data_Structure.queue.isEmpty()) {
     
 - 模板
 ```
+Queue<> q1 = new Queue<>();
+Queue<> q2 = new Queue<>();
 
-```
+boolean[][] fv = new boolean[][];
+boolean[][] bv = new boolean[][];
 
-#### Graph BFS 题型
-- 分层遍历
-- 联通块 Adj block
-    - 联通块通常是解决2D矩阵问题
-        - 如何记录每一个(x,y)的距离 通过 HashMap
-            - Java中没有tuple
-            - Solution: 编码x,y into 一维index HashMap<int,int> -> key=x*ColumnCount + y -> new index
-- 拓扑排序 Topological Sorting
+fv[start][start] = true;
+bv[start][start] = true;
 
-##### 拓扑排序
-- 什么是拓扑排序
-    - 拓扑排序是将有向图所有顶点的一个线性序列
-        - 每个顶点出现且仅出现一次
-        - 若边的方向是A -> B那么排序中A应该在B前面
-- 拓扑排序只应用在有向无环图 DAG 中
-    - 只有无环结构的有向图才有拓扑序
+q1.offer(start);
+q2.offer(end);
+
+int step = 0;
+while(!q1.isEmpty() && !q2.isEmpty()) {
+    int size = q1.size();
+    step++;
+    for(int i=0; i<size; i++) {
+        Node cur = q1.poll();
+        for(Node i: cur.child) {
+            if(bv.contains(i)) return step;
+            else {
+                if(fv.contains(i)) q1.offer(i); v1[][] = true;
+            }
+        }   
+    }
     
-- 基本概念
-    - 入度
-        - 有向图中指向当前节点的点的个数(指向当前节点边的条数)
-    - 出度
-    - 不是传统的排序算法
-        - 一个图可能存在多个拓扑序 也可能不存在任何拓扑序
+    step++;
+    int size = q2.size();
+    step++;
+    for(int i=0; i<size; i++) {
+        Node cur = q2.poll();
+        for(Node i: cur.child) {
+            if(fv.contains(i)) return step;
+            else {
+                if(bv.contains(i)) q2.offer(i); v2[][] = true;
+            }
+        }   
+    }
         
-- 算法描述
-    - 统计每个点的入度
-    - 将每个入度为0的点放入队列中作为起始节点
-        - 入度为0即只发送状态的点，不接受状态
-    - 不断从队列中拿出一个点，去掉这个点的所有连边(指向其他点的边)，其他点的相应入度 -1
-    - 一旦发现新的入度为0的点，丢回队列中
-
+} 
+```
 
 ### 难点问题：存在环结构问题
 - 上述BFS模板无法适用于环形结构

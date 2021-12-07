@@ -167,6 +167,9 @@ while(!Data_Structure.queue.isEmpty()) {
 }
 ```
 
+#### 利用BFS解决DFS问题 - 难点
+- 层级遍历: 每一层遍历时前一层的集合(选) + 前一层每一个结果添加当前层元素(不选) => 当前的解
+
 #### 双向宽度优先搜索 - 双向BFS
 - 起点，终点同时出发知道相遇
     - 节省存储空间 - 能节省大概 O(k^(n/2)) k是子节点个数 N是深度
@@ -176,8 +179,48 @@ while(!Data_Structure.queue.isEmpty()) {
     
 - 模板
 ```
+Queue<> q1 = new Queue<>();
+Queue<> q2 = new Queue<>();
 
+boolean[][] fv = new boolean[][];
+boolean[][] bv = new boolean[][];
+
+fv[start][start] = true;
+bv[start][start] = true;
+
+q1.offer(start);
+q2.offer(end);
+
+int step = 0;
+while(!q1.isEmpty() && !q2.isEmpty()) {
+    int size = q1.size();
+    step++;
+    for(int i=0; i<size; i++) {
+        Node cur = q1.poll();
+        for(Node i: cur.child) {
+            if(bv.contains(i)) return step;
+            else {
+                if(fv.contains(i)) q1.offer(i); v1[][] = true;
+            }
+        }   
+    }
+    
+    step++;
+    int size = q2.size();
+    step++;
+    for(int i=0; i<size; i++) {
+        Node cur = q2.poll();
+        for(Node i: cur.child) {
+            if(fv.contains(i)) return step;
+            else {
+                if(bv.contains(i)) q2.offer(i); v2[][] = true;
+            }
+        }   
+    }
+        
+} 
 ```
+
 ### 难点问题：存在环结构问题
 - 上述BFS模板无法适用于环形结构
     - 在BFS模板中，每一次会把queue中当前节点的邻接节点入度-1,如果有新的入度为0点那么将新点加入queue

@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="a91aefba-d5bb-4d1b-bcb9-37f2723ccbe9" name="Default Changelist" comment="Add Longest Palindronmic Substring Enumeration solution">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Data_Structure/heap/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/heap/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data_Structure/bfs/BFS.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/bfs/BFS.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data_Structure/graph/Graph.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/graph/Graph.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data_Structure/trie/Solution2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/trie/Solution2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,9 +52,9 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/Code_Interview/String/palindronmic_substring/Longest_Palindronmic_subsequence.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/Code_Interview/String/palindronmic_substring/LongestPalindronmicSubstring.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/Data_Structure/kmp/ImplementStrstr.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/Code_Interview/String/palindronmic_substring/Longest_Palindronmic_subsequence.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
@@ -87,7 +89,7 @@
       <recent name="C:\Users\13820\OneDrive\桌面\Algorithm_DataStructure\src\Data_Structure\tree\bt" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Guess">
+  <component name="RunManager" selected="Application.Solution2">
     <configuration name="Guess" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Code_Interview.Google.Guess" />
       <module name="DataStructure" />
@@ -127,19 +129,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Data_Structure.trie.Solution" />
-      <module name="DataStructure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Data_Structure.trie.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Data_Structure.heap.Solution" />
       <module name="DataStructure" />
@@ -153,13 +142,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Solution2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Data_Structure.trie.Solution2" />
+      <module name="DataStructure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Data_Structure.trie.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution2" />
         <item itemvalue="Application.Guess" />
         <item itemvalue="Application.MaxStack" />
         <item itemvalue="Application.LRUCache" />
         <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.Solution (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -214,6 +216,7 @@
       <workItem from="1637700920196" duration="19045000" />
       <workItem from="1638053072767" duration="10064000" />
       <workItem from="1638199632350" duration="9149000" />
+      <workItem from="1638813447643" duration="4059000" />
     </task>
     <task id="LOCAL-00001" summary="Add Longest Palindronmic Substring Enumeration solution">
       <created>1622781079047</created>
@@ -261,29 +264,29 @@
     </state>
     <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1638053086608" />
     <state x="842" y="196" key="FileChooserDialogImpl/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1637084557407" />
-    <state width="1236" height="397" key="GridCell.Tab.0.bottom" timestamp="1638662780079">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1237" height="235" key="GridCell.Tab.0.bottom" timestamp="1638847665642">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1877" height="431" key="GridCell.Tab.0.bottom/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1632238985047" />
-    <state width="1237" height="235" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1638061728586" />
+    <state width="1237" height="235" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1638847665642" />
     <state width="1236" height="397" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1638662780079" />
-    <state width="1236" height="397" key="GridCell.Tab.0.center" timestamp="1638662780079">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1237" height="235" key="GridCell.Tab.0.center" timestamp="1638847665642">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1877" height="431" key="GridCell.Tab.0.center/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1632238985046" />
-    <state width="1237" height="235" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1638061728586" />
+    <state width="1237" height="235" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1638847665642" />
     <state width="1236" height="397" key="GridCell.Tab.0.center/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1638662780079" />
-    <state width="1236" height="397" key="GridCell.Tab.0.left" timestamp="1638662780078">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1237" height="235" key="GridCell.Tab.0.left" timestamp="1638847665641">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1877" height="431" key="GridCell.Tab.0.left/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1632238985046" />
-    <state width="1237" height="235" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1638061728586" />
+    <state width="1237" height="235" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1638847665641" />
     <state width="1236" height="397" key="GridCell.Tab.0.left/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1638662780078" />
-    <state width="1236" height="397" key="GridCell.Tab.0.right" timestamp="1638662780079">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1237" height="235" key="GridCell.Tab.0.right" timestamp="1638847665642">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1877" height="431" key="GridCell.Tab.0.right/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1632238985046" />
-    <state width="1237" height="235" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1638061728586" />
+    <state width="1237" height="235" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1638847665642" />
     <state width="1236" height="397" key="GridCell.Tab.0.right/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1638662780079" />
     <state width="1234" height="479" key="GridCell.Tab.1.bottom" timestamp="1638219079806">
       <screen x="0" y="0" width="2560" height="1400" />
@@ -313,11 +316,11 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="242" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1637006288323" />
-    <state x="1310" y="338" key="com.intellij.ide.util.TipDialog" timestamp="1638199699726">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state x="655" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1638813463453">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="4823" y="251" key="com.intellij.ide.util.TipDialog/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1632235830264" />
-    <state x="655" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1638053072880" />
+    <state x="655" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1638813463453" />
     <state x="1310" y="338" key="com.intellij.ide.util.TipDialog/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1638199699726" />
     <state x="431" y="8" width="757" height="668" key="dock-window-1" timestamp="1636494498902">
       <screen x="0" y="0" width="1280" height="680" />
