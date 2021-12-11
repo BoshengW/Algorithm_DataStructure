@@ -34,6 +34,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="FxmlFile" />
       </list>
     </option>
   </component>
@@ -214,6 +215,7 @@
       <workItem from="1638053072767" duration="10064000" />
       <workItem from="1638199632350" duration="9149000" />
       <workItem from="1638813447643" duration="4059000" />
+      <workItem from="1639240884679" duration="2807000" />
     </task>
     <task id="LOCAL-00001" summary="Add Longest Palindronmic Substring Enumeration solution">
       <created>1622781079047</created>
@@ -313,12 +315,12 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="242" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1637006288323" />
-    <state x="655" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1638813463453">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="1310" y="338" key="com.intellij.ide.util.TipDialog" timestamp="1639240884610">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="4823" y="251" key="com.intellij.ide.util.TipDialog/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1632235830264" />
     <state x="655" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1638813463453" />
-    <state x="1310" y="338" key="com.intellij.ide.util.TipDialog/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1638199699726" />
+    <state x="1310" y="338" key="com.intellij.ide.util.TipDialog/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1639240884610" />
     <state x="431" y="8" width="757" height="668" key="dock-window-1" timestamp="1636494498902">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
