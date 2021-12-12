@@ -2,6 +2,7 @@
 1. n个k面色子 输出每种和的概率数组 比如2个2面色子 输出 [0.25, 0.5, 0.25]
   -	DFS 组合问题
   - https://www.1point3acres.com/bbs/thread-825475-1-1.html
+
 2. 猜词游戏 - secrets + guess -> output (int a, int b) - leetcode 299
 - https://www.1point3acres.com/bbs/thread-825315-1-1.html
     - a 有几个字母完全猜对 - 
@@ -34,6 +35,7 @@ recipe 的例子：
     如果有 raw ingredients：vegetable, meat, water的话，就什么都不能做
 ```
 图 - bfs
+
 4. 输入两个string s1和s2，如果s1加一个字母后任意排列可以变成s2，返回true，否则false。
 - https://www.1point3acres.com/bbs/thread-825057-1-1.html
 ```
@@ -59,7 +61,6 @@ eg2: hello -False 因为l‍‌‍‌‌‍‍‍‌‍‍‍‌‌‌‌‍‍�
 ```
 (tail, head) - (head, tail) return truely 50/50 prob
 ```
-
 7. 第一题不知道有没有利口，是一个string of English letters，要求返回index如果当前的字母比原来的排序低。比如ABCZD就返回D的index。Followup返回总的count。再Followup如果要从前后同时搜索，2pointer应该就行了吧。
 ```
 ACB DFA//
@@ -149,3 +150,10 @@ coding题，生成binomial distribution的一个matrix，取每一列的和做�
 
 23. 写代码，length of longest continuous increasing subarray, 
 扩展：允许一次violoation, 就是允许array里面有下降的情况，怎么修改
+
+24. 写一个函数求平均数，将type改为float，有什么corner case需要注意，stack overflow
+
+25. 写两个函数(1). insert no overlap range (2). check if point inside the range
+- Integer 
+- follow up: 改为float
+- follow up: 将(2) 复杂度降到O(logN) 

@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="a91aefba-d5bb-4d1b-bcb9-37f2723ccbe9" name="Default Changelist" comment="Add Longest Palindronmic Substring Enumeration solution">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Code_Interview/Google/OA.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Code_Interview/Google/OA.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data_Structure/graph/Graph.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/graph/Graph.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data_Structure/graph/SSSP/Dijikstra.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structure/graph/SSSP/Dijikstra.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,8 +36,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="FxmlFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -50,9 +53,9 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/Code_Interview/String/palindronmic_substring/Longest_Palindronmic_subsequence.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/Code_Interview/String/palindronmic_substring/LongestPalindronmicSubstring.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/Data_Structure/kmp/ImplementStrstr.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/Code_Interview/String/palindronmic_substring/Longest_Palindronmic_subsequence.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
@@ -87,13 +90,13 @@
       <recent name="C:\Users\13820\OneDrive\桌面\Algorithm_DataStructure\src\Data_Structure\tree\bt" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution2">
-    <configuration name="Guess" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Code_Interview.Google.Guess" />
+  <component name="RunManager" selected="Application.Solution">
+    <configuration name="Dijikstra" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Data_Structure.graph.SSSP.Dijikstra" />
       <module name="DataStructure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Code_Interview.Google.*" />
+          <option name="PATTERN" value="Data_Structure.graph.SSSP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LRUCache" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Code_Interview.data_structure.LRUCache" />
+    <configuration name="Guess" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Code_Interview.Google.Guess" />
       <module name="DataStructure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Code_Interview.data_structure.*" />
+          <option name="PATTERN" value="Code_Interview.Google.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,11 +131,11 @@
       </method>
     </configuration>
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Data_Structure.heap.Solution" />
+      <option name="MAIN_CLASS_NAME" value="Data_Structure.graph.SSSP.Solution" />
       <module name="DataStructure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Data_Structure.heap.*" />
+          <option name="PATTERN" value="Data_Structure.graph.SSSP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.Dijikstra" />
         <item itemvalue="Application.Solution2" />
         <item itemvalue="Application.Guess" />
         <item itemvalue="Application.MaxStack" />
-        <item itemvalue="Application.LRUCache" />
-        <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -263,53 +266,53 @@
     </state>
     <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1638053086608" />
     <state x="842" y="196" key="FileChooserDialogImpl/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1637084557407" />
-    <state width="1237" height="235" key="GridCell.Tab.0.bottom" timestamp="1638847665642">
+    <state width="596" height="217" key="GridCell.Tab.0.bottom" timestamp="1639288739921">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1877" height="431" key="GridCell.Tab.0.bottom/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1632238985047" />
-    <state width="1237" height="235" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1638847665642" />
+    <state width="596" height="217" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1639288739921" />
     <state width="1236" height="397" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1638662780079" />
-    <state width="1237" height="235" key="GridCell.Tab.0.center" timestamp="1638847665642">
+    <state width="596" height="217" key="GridCell.Tab.0.center" timestamp="1639288739921">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1877" height="431" key="GridCell.Tab.0.center/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1632238985046" />
-    <state width="1237" height="235" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1638847665642" />
+    <state width="596" height="217" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1639288739921" />
     <state width="1236" height="397" key="GridCell.Tab.0.center/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1638662780079" />
-    <state width="1237" height="235" key="GridCell.Tab.0.left" timestamp="1638847665641">
+    <state width="596" height="217" key="GridCell.Tab.0.left" timestamp="1639288739921">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1877" height="431" key="GridCell.Tab.0.left/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1632238985046" />
-    <state width="1237" height="235" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1638847665641" />
+    <state width="596" height="217" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1639288739921" />
     <state width="1236" height="397" key="GridCell.Tab.0.left/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1638662780078" />
-    <state width="1237" height="235" key="GridCell.Tab.0.right" timestamp="1638847665642">
+    <state width="596" height="217" key="GridCell.Tab.0.right" timestamp="1639288739921">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1877" height="431" key="GridCell.Tab.0.right/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1632238985046" />
-    <state width="1237" height="235" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1638847665642" />
+    <state width="596" height="217" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1639288739921" />
     <state width="1236" height="397" key="GridCell.Tab.0.right/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1638662780079" />
-    <state width="1234" height="479" key="GridCell.Tab.1.bottom" timestamp="1638219079806">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="596" height="217" key="GridCell.Tab.1.bottom" timestamp="1639288739921">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1877" height="431" key="GridCell.Tab.1.bottom/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1632238629721" />
-    <state width="1237" height="217" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1636519413156" />
+    <state width="596" height="217" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1639288739921" />
     <state width="1234" height="479" key="GridCell.Tab.1.bottom/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1638219079806" />
-    <state width="1234" height="479" key="GridCell.Tab.1.center" timestamp="1638219079806">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="596" height="217" key="GridCell.Tab.1.center" timestamp="1639288739921">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1877" height="431" key="GridCell.Tab.1.center/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1632238629720" />
-    <state width="1237" height="217" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1636519413156" />
+    <state width="596" height="217" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1639288739921" />
     <state width="1234" height="479" key="GridCell.Tab.1.center/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1638219079806" />
-    <state width="1234" height="479" key="GridCell.Tab.1.left" timestamp="1638219079806">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="596" height="217" key="GridCell.Tab.1.left" timestamp="1639288739921">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1877" height="431" key="GridCell.Tab.1.left/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1632238629720" />
-    <state width="1237" height="217" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1636519413156" />
+    <state width="596" height="217" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1639288739921" />
     <state width="1234" height="479" key="GridCell.Tab.1.left/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1638219079806" />
-    <state width="1234" height="479" key="GridCell.Tab.1.right" timestamp="1638219079806">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="596" height="217" key="GridCell.Tab.1.right" timestamp="1639288739921">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1877" height="431" key="GridCell.Tab.1.right/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1632238629720" />
-    <state width="1237" height="217" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1636519413156" />
+    <state width="596" height="217" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1639288739921" />
     <state width="1234" height="479" key="GridCell.Tab.1.right/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1638219079806" />
     <state x="242" y="0" key="SettingsEditor" timestamp="1637006288323">
       <screen x="0" y="0" width="1280" height="680" />
@@ -329,12 +332,12 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="91" y="0" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1634866101256" />
-    <state x="343" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1638310591256">
+    <state x="343" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1639258589698">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="343" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680/3840.0.1920.1040@0.0.1280.680" timestamp="1632497976232" />
     <state x="4355" y="2" width="1008" height="1037" key="search.everywhere.popup/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1631118248775" />
-    <state x="343" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1638310591256" />
+    <state x="343" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1639258589698" />
     <state x="686" y="2" width="1344" height="1396" key="search.everywhere.popup/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1637692057689" />
   </component>
   <component name="XDebuggerManager">
@@ -500,14 +503,13 @@
           <line>67</line>
           <option name="timeStamp" value="59" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Data_Structure/graph/SSSP/Dijikstra.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="stk" language="JAVA" />
-        <watch expression="heap" language="JAVA" />
-      </configuration>
-    </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/DataStructure$QuickSelect.ic" NAME="QuickSelect Coverage Results" MODIFIED="1632200752005" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
