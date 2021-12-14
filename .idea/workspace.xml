@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="a91aefba-d5bb-4d1b-bcb9-37f2723ccbe9" name="Default Changelist" comment="Add Longest Palindronmic Substring Enumeration solution">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/Code_Interview/Amazon/OA.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructure/Code_Interview/Amazon/OA.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/Code_Interview/Amazon/RecentViewItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructure/Code_Interview/Amazon/RecentViewItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Code_Interview/Amazon/OA.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Code_Interview/Amazon/OA.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Code_Interview/Amazon/RecentViewItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Code_Interview/Amazon/RecentViewItem.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,9 +54,9 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/Code_Interview/String/palindronmic_substring/Longest_Palindronmic_subsequence.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/Code_Interview/String/palindronmic_substring/LongestPalindronmicSubstring.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/Data_Structure/kmp/ImplementStrstr.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/Code_Interview/String/palindronmic_substring/Longest_Palindronmic_subsequence.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
@@ -87,9 +91,9 @@
       <recent name="C:\Users\13820\OneDrive\桌面\Algorithm_DataStructure\src\Data_Structure\tree\bt" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RecentViewItem">
-    <configuration name="CouponValid" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Code_Interview.Amazon.CouponValid" />
+  <component name="RunManager" selected="Application.reversePair">
+    <configuration name="ContinuousDescSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Code_Interview.Amazon.ContinuousDescSubArray" />
       <module name="DataStructure" />
       <extension name="coverage">
         <pattern>
@@ -101,12 +105,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Dijikstra" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Data_Structure.graph.SSSP.Dijikstra" />
+    <configuration name="DocLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Code_Interview.Amazon.DocLinkedList" />
       <module name="DataStructure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Data_Structure.graph.SSSP.*" />
+          <option name="PATTERN" value="Code_Interview.Amazon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrimeAirTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Code_Interview.Amazon.PrimeAirTime" />
+      <module name="DataStructure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Code_Interview.Amazon.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,25 +144,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Data_Structure.graph.SSSP.Solution" />
+    <configuration name="reversePair" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Code_Interview.Amazon.reversePair" />
       <module name="DataStructure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Data_Structure.graph.SSSP.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Data_Structure.trie.Solution2" />
-      <module name="DataStructure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Data_Structure.trie.*" />
+          <option name="PATTERN" value="Code_Interview.Amazon.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.reversePair" />
+        <item itemvalue="Application.PrimeAirTime" />
         <item itemvalue="Application.RecentViewItem" />
-        <item itemvalue="Application.CouponValid" />
-        <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.Dijikstra" />
-        <item itemvalue="Application.Solution2" />
+        <item itemvalue="Application.ContinuousDescSubArray" />
+        <item itemvalue="Application.DocLinkedList" />
       </list>
     </recent_temporary>
   </component>
@@ -216,6 +220,7 @@
       <workItem from="1638199632350" duration="9149000" />
       <workItem from="1638813447643" duration="4059000" />
       <workItem from="1639240884679" duration="2807000" />
+      <workItem from="1639443034961" duration="2567000" />
     </task>
     <task id="LOCAL-00001" summary="Add Longest Palindronmic Substring Enumeration solution">
       <created>1622781079047</created>
@@ -253,6 +258,10 @@
     </state>
     <state x="4545" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1634317818692" />
     <state x="940" y="433" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1637903026900" />
+    <state x="484" y="237" width="314" height="206" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1639460494703">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="484" y="237" width="314" height="206" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1280.680@0.0.1280.680" timestamp="1639460494703" />
     <state x="188" y="194" width="2184" height="1013" key="DiffContextDialog" timestamp="1637084444944">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -263,63 +272,63 @@
     </state>
     <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1638053086608" />
     <state x="842" y="196" key="FileChooserDialogImpl/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1637084557407" />
-    <state width="1815" height="281" key="GridCell.Tab.0.bottom" timestamp="1639361333681">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1237" height="219" key="GridCell.Tab.0.bottom" timestamp="1639458350675">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1877" height="431" key="GridCell.Tab.0.bottom/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1632238985047" />
-    <state width="596" height="217" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1639288739921" />
+    <state width="1237" height="219" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1639458350675" />
     <state width="1815" height="281" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1639361333681" />
-    <state width="1815" height="281" key="GridCell.Tab.0.center" timestamp="1639361333681">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1237" height="219" key="GridCell.Tab.0.center" timestamp="1639458350675">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1877" height="431" key="GridCell.Tab.0.center/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1632238985046" />
-    <state width="596" height="217" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1639288739921" />
+    <state width="1237" height="219" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1639458350675" />
     <state width="1815" height="281" key="GridCell.Tab.0.center/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1639361333680" />
-    <state width="1815" height="281" key="GridCell.Tab.0.left" timestamp="1639361333680">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1237" height="219" key="GridCell.Tab.0.left" timestamp="1639458350675">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1877" height="431" key="GridCell.Tab.0.left/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1632238985046" />
-    <state width="596" height="217" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1639288739921" />
+    <state width="1237" height="219" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1639458350675" />
     <state width="1815" height="281" key="GridCell.Tab.0.left/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1639361333680" />
-    <state width="1815" height="281" key="GridCell.Tab.0.right" timestamp="1639361333681">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1237" height="219" key="GridCell.Tab.0.right" timestamp="1639458350675">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1877" height="431" key="GridCell.Tab.0.right/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1632238985046" />
-    <state width="596" height="217" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1639288739921" />
+    <state width="1237" height="219" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1639458350675" />
     <state width="1815" height="281" key="GridCell.Tab.0.right/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1639361333681" />
-    <state width="1815" height="348" key="GridCell.Tab.1.bottom" timestamp="1639361315052">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1237" height="219" key="GridCell.Tab.1.bottom" timestamp="1639458350808">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1877" height="431" key="GridCell.Tab.1.bottom/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1632238629721" />
-    <state width="596" height="217" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1639288739921" />
+    <state width="1237" height="219" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1639458350808" />
     <state width="1815" height="348" key="GridCell.Tab.1.bottom/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1639361315052" />
-    <state width="1815" height="348" key="GridCell.Tab.1.center" timestamp="1639361315052">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1237" height="219" key="GridCell.Tab.1.center" timestamp="1639458350807">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1877" height="431" key="GridCell.Tab.1.center/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1632238629720" />
-    <state width="596" height="217" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1639288739921" />
+    <state width="1237" height="219" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1639458350807" />
     <state width="1815" height="348" key="GridCell.Tab.1.center/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1639361315052" />
-    <state width="1815" height="348" key="GridCell.Tab.1.left" timestamp="1639361315052">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1237" height="219" key="GridCell.Tab.1.left" timestamp="1639458350807">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1877" height="431" key="GridCell.Tab.1.left/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1632238629720" />
-    <state width="596" height="217" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1639288739921" />
+    <state width="1237" height="219" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1639458350807" />
     <state width="1815" height="348" key="GridCell.Tab.1.left/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1639361315052" />
-    <state width="1815" height="348" key="GridCell.Tab.1.right" timestamp="1639361315052">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1237" height="219" key="GridCell.Tab.1.right" timestamp="1639458350808">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1877" height="431" key="GridCell.Tab.1.right/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1632238629720" />
-    <state width="596" height="217" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1639288739921" />
+    <state width="1237" height="219" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1639458350808" />
     <state width="1815" height="348" key="GridCell.Tab.1.right/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1639361315052" />
     <state x="242" y="0" key="SettingsEditor" timestamp="1637006288323">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="242" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1637006288323" />
-    <state x="1310" y="338" key="com.intellij.ide.util.TipDialog" timestamp="1639240884610">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state x="655" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1639443035414">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="4823" y="251" key="com.intellij.ide.util.TipDialog/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1632235830264" />
-    <state x="655" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1638813463453" />
+    <state x="655" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1639443035414" />
     <state x="1310" y="338" key="com.intellij.ide.util.TipDialog/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1639240884610" />
     <state x="431" y="8" width="757" height="668" key="dock-window-1" timestamp="1636494498902">
       <screen x="0" y="0" width="1280" height="680" />
@@ -329,12 +338,12 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="91" y="0" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1634866101256" />
-    <state x="343" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1639258589698">
+    <state x="343" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1639441828178">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="343" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680/3840.0.1920.1040@0.0.1280.680" timestamp="1632497976232" />
     <state x="4355" y="2" width="1008" height="1037" key="search.everywhere.popup/0.0.1280.680/3840.0.1920.1040@3840.0.1920.1040" timestamp="1631118248775" />
-    <state x="343" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1639258589698" />
+    <state x="343" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1639441828178" />
     <state x="686" y="2" width="1344" height="1396" key="search.everywhere.popup/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1637692057689" />
   </component>
   <component name="XDebuggerManager">
@@ -504,6 +513,36 @@
           <url>file://$PROJECT_DIR$/src/Code_Interview/Amazon/RecentViewItem.java</url>
           <line>34</line>
           <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Code_Interview/Amazon/DocLinkedList.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Code_Interview/Amazon/PrimeAirTime.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Code_Interview/Amazon/PrimeAirTime.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Code_Interview/Amazon/PrimeAirTime.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Code_Interview/Amazon/PrimeAirTime.java</url>
+          <line>66</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Code_Interview/Amazon/reversePair.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="71" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

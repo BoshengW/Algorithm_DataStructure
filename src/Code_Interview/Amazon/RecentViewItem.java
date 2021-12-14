@@ -88,5 +88,11 @@ public class RecentViewItem {
         RecentViewItem obj = new RecentViewItem();
         String[] t = {"phone", "tv", "tv","phone","shirt","tv"};
         System.out.println(Arrays.toString(obj.recentItem(t)));
+
+        int[][] a = {{1,2}, {2,4}, {3,1}};
+        Arrays.sort(a, (x, y) -> x[1]-y[1]);
+        for(int[] i: a) {
+            System.out.println(Arrays.toString(i));
+        }
     }
 }
