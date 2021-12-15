@@ -26,6 +26,7 @@
 10. leetcode 926
 11. leetcode 1109 - 航空schedule booking - 差分数组扫描线
 12. Prime Air time
+- https://leetcode.com/discuss/interview-question/373202
 - 描述
 ```
 两个Array - 给一个target找到最接近target的两个数组和的ids
@@ -41,3 +42,6 @@ target: 750 - [3,2]
 ```
 
 14. leetcode 315 - 归并排序思想 - 寻找逆序对
+15. leetcode 1335 - Minimum Diff of a Job Schedule
+- diff - job - sum(diff-jobs)
+- diff - day - max(diff - job)

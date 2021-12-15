@@ -7,7 +7,7 @@ import java.util.List;
 public class PrimeAirTime {
     /**
      * Two Sum 变种
-     * 在两个array中寻找target最接近或者==target的所有解
+     * 在两个array中寻找target最接近或者小于或等于target的所有解
      *
      * */
     public int[] findTargetOnce(int[][] arr1, int[][] arr2, int target) {
@@ -24,7 +24,7 @@ public class PrimeAirTime {
             int l=0, r=arr2.length-1;
             while(l<r) {
                 int mid = l + (r-l+1>>1);
-                if(arr2[mid][1]<res) l=mid;
+                if(arr2[mid][1]<=res) l=mid;
                 else r=mid-1;
             }
             // l <= res
@@ -48,6 +48,7 @@ public class PrimeAirTime {
         Arrays.sort(arr1, (x, y)->x[1]-y[1]);
         Arrays.sort(arr2, (x, y)->x[1]-y[1]);
 
+
         List<int[]> ids = new ArrayList<>();
         for(int i=0; i<arr1.length; i++) {
             int res = target - arr1[i][1];
@@ -58,27 +59,23 @@ public class PrimeAirTime {
                 if(arr2[mid][1]<res) l=mid;
                 else r=mid-1;
             }
-            // l <= res
+            // last index <= res
             int tIdx = l;
-            if(l+1<arr2.length && Math.abs(arr2[l+1][1]-res)<Math.abs(arr2[l][1]-res)) {
-                tIdx = l+1;
-            }
 
             ids = findDup(arr1, arr2, tIdx, ids, res, i);
-
         }
         return ids;
     }
 
     private List<int[]> findDup(int[][] arr1, int[][] arr2, int tIdx, List<int[]> ids, int res, int i) {
-        if(Math.abs(arr2[tIdx][1]-res)<min) {
-            min = Math.abs(arr2[tIdx][1]-res);
+        if(res-arr2[tIdx][1]<min) {
+            min = res - arr2[tIdx][1];
             ids = new ArrayList<>();
 
-        } else if(Math.abs(arr2[tIdx][1]-res)>min) {
+        } else if(res - arr2[tIdx][1]>min) {
             return ids;
         }
-        int left=tIdx, right=tIdx+1;
+        int left = tIdx;
         while(left>=0 && arr2[left][1]==arr2[tIdx][1]) {
             int[] tmp = new int[2];
             tmp[0] = arr1[i][0];
@@ -86,14 +83,22 @@ public class PrimeAirTime {
             ids.add(tmp);
             left--;
         }
-
-        while(right<arr2.length && arr2[right][1]==arr2[tIdx][1]) {
-            int[] tmp = new int[2];
-            tmp[0] = arr1[i][0];
-            tmp[1] = arr2[tIdx][0];
-            ids.add(tmp);
-            right++;
-        }
+//        int left=tIdx, right=tIdx+1;
+//        while(left>=0 && arr2[left][1]==arr2[tIdx][1]) {
+//            int[] tmp = new int[2];
+//            tmp[0] = arr1[i][0];
+//            tmp[1] = arr2[tIdx][0];
+//            ids.add(tmp);
+//            left--;
+//        }
+//
+//        while(right<arr2.length && arr2[right][1]==arr2[tIdx][1]) {
+//            int[] tmp = new int[2];
+//            tmp[0] = arr1[i][0];
+//            tmp[1] = arr2[tIdx][0];
+//            ids.add(tmp);
+//            right++;
+//        }
 
         return ids;
     }
